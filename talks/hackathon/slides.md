@@ -1,6 +1,7 @@
 ---
 marp: true
-theme: default
+theme: gaia
+class: invert
 paginate: true
 backgroundColor: #1a1a2e
 color: #eaeaea
@@ -33,18 +34,173 @@ style: |
     color: #ff6b6b;
   }
   code {
-    background: #16213e;
-    color: #00d4ff;
+    background: #16213e !important;
+    color: #00d4ff !important;
+  }
+  pre {
+    background: #16213e !important;
+    color: #00d4ff !important;
+  }
+  pre code {
+    background: #16213e !important;
+    color: #00d4ff !important;
   }
   a {
     color: #4ecdc4;
   }
   table {
-    font-size: 0.8em;
+    font-size: 0.8em !important;
+    background: #16213e !important;
+    border-collapse: collapse !important;
+    width: 100% !important;
+  }
+  thead {
+    background: #0f1527 !important;
+  }
+  tbody {
+    background: #1a2332 !important;
   }
   th {
-    background: #16213e;
-    color: #00d4ff;
+    background: #0f1527 !important;
+    color: #00d4ff !important;
+    padding: 10px !important;
+    border: 1px solid #2a3f5f !important;
+    font-weight: bold !important;
+  }
+  td {
+    background: #1a2332 !important;
+    color: #eaeaea !important;
+    padding: 10px !important;
+    border: 1px solid #2a3f5f !important;
+  }
+  tr:nth-child(even) td {
+    background: #16213e !important;
+  }
+  tr:hover td {
+    background: #1f2b45 !important;
+  }
+  /* Force dark theme on all possible SVG containers and elements */
+  svg,
+  svg:not(:root) {
+    background: #16213e !important;
+    overflow: visible !important;
+  }
+  svg foreignObject,
+  svg foreignObject > * {
+    background: #16213e !important;
+    color: #00d4ff !important;
+  }
+  /* Alternative: Force all SVGs to have dark theme */
+  svg,
+  svg * {
+    background: transparent !important;
+  }
+  svg {
+    color: #eaeaea !important;
+  }
+  svg text,
+  svg tspan {
+    fill: #eaeaea !important;
+    stroke: none !important;
+  }
+  svg rect:not([fill="none"]) {
+    fill: #16213e !important;
+    stroke: #2a3f5f !important;
+  }
+  svg rect[fill="white"],
+  svg rect[fill="#ffffff"],
+  svg rect[fill="#FFFFFF"],
+  svg rect[fill="rgb(255,255,255)"] {
+    fill: #16213e !important;
+  }
+  svg line,
+  svg path:not([fill]) {
+    stroke: #00d4ff !important;
+    fill: none !important;
+  }
+  svg circle,
+  svg ellipse {
+    fill: #00d4ff !important;
+    stroke: #2a3f5f !important;
+  }
+  svg polygon,
+  svg polyline {
+    fill: #16213e !important;
+    stroke: #00d4ff !important;
+  }
+  /* Override any white backgrounds */
+  svg[style*="background: white"],
+  svg[style*="background: #fff"],
+  svg[style*="background: rgb(255"],
+  svg[style*="background-color: white"],
+  svg[style*="background-color: #fff"],
+  svg[style*="background-color: rgb(255"] {
+    background: transparent !important;
+  }
+  /* Code block SVGs */
+  pre svg,
+  code svg,
+  .language-text svg,
+  .hljs svg {
+    background: transparent !important;
+  }
+  pre svg rect,
+  code svg rect,
+  .language-text svg rect,
+  .hljs svg rect {
+    fill: #16213e !important;
+  }
+  pre svg text,
+  code svg text,
+  .language-text svg text,
+  .hljs svg text {
+    fill: #00d4ff !important;
+  }
+  /* Force override any inline styles */
+  svg * {
+    fill: currentColor !important;
+  }
+  svg text,
+  svg tspan {
+    fill: #00d4ff !important;
+  }
+  svg rect[fill]:not([fill="none"]) {
+    fill: #16213e !important;
+  }
+  /* Target Marp's specific SVG rendering */
+  section svg {
+    background: transparent !important;
+  }
+  section svg text {
+    fill: #00d4ff !important;
+  }
+  section svg rect {
+    fill: #16213e !important;
+  }
+  /* Mermaid diagram specific styling */
+  .mermaid svg {
+    background: transparent !important;
+  }
+  .mermaid .node rect,
+  .mermaid .node circle,
+  .mermaid .node ellipse,
+  .mermaid .node polygon {
+    fill: #16213e !important;
+    stroke: #00d4ff !important;
+  }
+  .mermaid .node text {
+    fill: #eaeaea !important;
+  }
+  .mermaid .edgePath .path {
+    stroke: #00d4ff !important;
+  }
+  .mermaid .edgeLabel {
+    background: #1a2332 !important;
+    color: #eaeaea !important;
+  }
+  .mermaid .cluster rect {
+    fill: #0f1527 !important;
+    stroke: #00d4ff !important;
   }
   blockquote {
     border-left: 4px solid #00d4ff;
@@ -52,12 +208,30 @@ style: |
     padding: 10px 20px;
     font-style: italic;
   }
+  /* Marp-specific overrides for code blocks that might be rendered as SVG */
+  [data-marpit-svg],
+  [data-marpit-svg] svg {
+    background: #16213e !important;
+  }
+  [data-marpit-svg] foreignObject {
+    background: #16213e !important;
+  }
+  /* Try to catch any element that might contain the SVG */
+  .marpit > svg,
+  .marpit svg {
+    background: #16213e !important;
+  }
+  /* Override highlight.js if that's being used */
+  .hljs {
+    background: #16213e !important;
+    color: #00d4ff !important;
+  }
 ---
 
 <!-- _paginate: false -->
 <!-- _backgroundColor: #0f0f23 -->
 
-# TechBio Lead Gen & SMYKM
+# TechBio Lead Gen and SMYKM
 
 ## AI-Powered Sales Intelligence
 
@@ -69,8 +243,9 @@ style: |
 
 # The Problem
 
-## Sales Reps Spend 80% of Time Researching
+## Sales Reps Spend 80% of Time Researching SMYKM
 
+- Show Me You Know Me (SMYKM)
 - Reading papers to understand their work
 - Finding equipment they use
 - Identifying pain points
@@ -87,12 +262,12 @@ style: |
 ```
 ┌─────────────────────────────────────────────┐
 │          watsonx Orchestrate                │
-└──────┬──────────┬──────────┬───────────────┘
+└──────┬──────────┬──────────┬────────────────┘
        │          │          │
-   ┌───▼───┐  ┌───▼───┐  ┌───▼───┐  ┌───────┐
-   │ Lead  │→ │Profile│→ │Product│→ │ SMYKM │
+   ┌───▼───┐  ┌───▼───┐  ┌───▼───┐  ┌────────┐
+   │ Lead  │→ │Profile│→ │Product│→ │ SMYKM  │
    │Search │  │Builder│  │ Match │  │Outreach│
-   └───────┘  └───────┘  └───────┘  └───────┘
+   └───────┘  └───────┘  └───────┘  └────────┘
 ```
 
 **Find leads → Build profiles → Match products → Personalize outreach**
@@ -245,4 +420,3 @@ https://doi.bio/resources/
 
 **GitHub**: github.com/sness23/lablab-orchestrate
 
-*Questions?*
