@@ -32,19 +32,19 @@ SLIDE_AUDIO_FILES = [
 
 # Slide titles for display
 SLIDE_TITLES = [
-    "Title: TechBio Lead Gen and SMYKM",
-    "The Problem - 80% Research Time",
-    "Our Solution: 4 AI Agents",
-    "Demo: Alex Rives",
-    "Step 1: Lead Discovery",
-    "Step 2: Profile Builder",
-    "Step 3: Product Match",
-    "Step 4: SMYKM Outreach",
-    "Key Personalization Hooks",
-    "Bonus Features",
-    "Technical Implementation",
-    "ROI Impact",
-    "Thank You",
+    "Slide 1: TechBio Lead Gen and SMYKM - Title",
+    "Slide 2: The Problem - 80% Research Time",
+    "Slide 3: Our Solution - 4 AI Agents",
+    "Slide 4: Demo - Alex Rives Target Lead",
+    "Slide 5: Step 1 - Lead Discovery",
+    "Slide 6: Step 2 - Profile Builder",
+    "Slide 7: Step 3 - Product Match",
+    "Slide 8: Step 4 - SMYKM Outreach",
+    "Slide 9: Key Personalization Hooks",
+    "Slide 10: Bonus Features - Sales Toolkit",
+    "Slide 11: Technical Implementation",
+    "Slide 12: ROI Impact - The Numbers",
+    "Slide 13: Thank You",
 ]
 
 class ChromeSlideController:
@@ -63,19 +63,24 @@ class ChromeSlideController:
                 print("❌ No tabs found in Chrome")
                 return False
 
-            # Find the slides tab
+            # Find the tab with slides - look for localhost:3000 or slides in URL/title
             slide_tab = None
             for tab in tabs:
-                if 'slide' in tab.get('title', '').lower() or 'slide' in tab.get('url', '').lower():
+                url = tab.get('url', '').lower()
+                title = tab.get('title', '').lower()
+                # Check for React app on port 3000 or slides in URL/title
+                if 'localhost:3000' in url or ':3000' in url or 'slides' in url or 'slide' in title:
                     slide_tab = tab
-                    print(f"✓ Found slides: {tab.get('title', 'Untitled')[:50]}")
+                    print(f"✓ Found slide tab: {tab.get('title', 'Untitled')[:50]}")
+                    print(f"  URL: {tab.get('url', '')}")
                     break
 
-            # Fallback to first non-extension tab
+            # If no slide tab found, use the first regular tab
             if not slide_tab:
                 for tab in tabs:
                     if tab.get('type') == 'page' and not tab.get('url', '').startswith('chrome-extension'):
                         slide_tab = tab
+                        print(f"  Using tab: {tab.get('title', 'Untitled')[:50]}")
                         break
 
             if not slide_tab:
@@ -186,7 +191,7 @@ class SlidePresentation:
             print("❌ Missing audio files:")
             for f in missing_files:
                 print(f"  - {f}")
-            print("\nPlease run: python generate_slide_audio.py")
+            print("\nPlease run: python split_audio_by_slide.py")
             return
 
         # Connect to Chrome
@@ -224,7 +229,7 @@ class SlidePresentation:
                 elapsed = time.time() - start_time
                 minutes = int(elapsed // 60)
                 seconds = int(elapsed % 60)
-                print(f"[{minutes:02d}:{seconds:02d}] Slide {i}/{total_slides}: {title}")
+                print(f"[{minutes:02d}:{seconds:02d}] → {title}")
 
                 # Play audio for this slide
                 duration = self.play_audio(audio_file)
@@ -234,10 +239,10 @@ class SlidePresentation:
 
                 # Small pause between slides
                 if i < total_slides:
-                    time.sleep(0.5)
+                    time.sleep(0.3)
                     # Advance to next slide
                     self.chrome.next_slide()
-                    time.sleep(0.5)  # Give slide time to transition
+                    time.sleep(0.2)  # Give slide time to transition
 
         except KeyboardInterrupt:
             print("\n\n⚠️ Presentation interrupted")

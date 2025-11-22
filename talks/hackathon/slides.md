@@ -237,7 +237,7 @@ style: |
 
 **IBM watsonx Orchestrate Hackathon**
 
-*Turn public research into personalized outreach*
+*Turn public research into personalized outreach with Show Me You Know Me (SMYKM)*
 
 ---
 
@@ -371,23 +371,6 @@ style: |
 | **Deal Probability** | AI-scored likelihood with reasoning |
 | **Campaign Sequences** | 6-week multi-touch plan |
 | **LinkedIn Content** | Social selling messages |
-
----
-
-# Technical Implementation
-
-## How It Works
-
-```
-https://doi.bio/resources/
-├── leads/alex-rives.md
-├── products/rigaku-xray-systems.md
-└── outreach/alex-rives-smykm.md
-```
-
-- **FastAPI backend** serves resources
-- **OpenAPI spec** for watsonx skill import
-- **Markdown files** for easy updates
 
 ---
 

@@ -12,20 +12,33 @@ from pathlib import Path
 import sys
 
 # Slide transition times (in seconds from start)
+# Updated for 1.30x speed audio (fits within 5 minutes)
+# Each transition properly synced with audio content
+#
+# Audio mapping (at 1.30x speed):
+# 01_intro.mp3 (0-22s): Slide 1 - Title/Introduction
+# 02_solution.mp3 (22-43s): Slides 2 & 3 - Problem & Solution
+# 03_lead_discovery.mp3 (43-60s): Slides 4 & 5 - Alex Rives & Lead Discovery
+# 04_profile_builder.mp3 (60-74s): Slide 6 - Profile Builder
+# 05_product_match.mp3 (74-87s): Slide 7 - Product Match
+# 06_smykm_outreach.mp3 (87-111s): Slides 8 & 9 - SMYKM & Personalization
+# 07_bonus_features.mp3 (111-129s): Slide 10 - Bonus Features
+# 08_technical_roi.mp3 (129-144s): Slides 11 & 12 - Technical & ROI
+# 09_closing.mp3 (144-156s): Slide 13 - Thank You
 SLIDE_TRANSITIONS = [
-    (0, "Slide 1: Title"),
-    (20, "Slide 2: The Problem"),
-    (45, "Slide 3: Solution - 4 AI Agents"),
-    (75, "Slide 4: Alex Rives Introduction"),
-    (90, "Slide 5: Lead Discovery Score"),
-    (105, "Slide 6: Profile Builder - Pain Point"),
-    (135, "Slide 7: Product Match - Rigaku"),
-    (165, "Slide 8: SMYKM Email"),
-    (195, "Slide 9: Personalization Hooks"),
-    (225, "Slide 10: Bonus Features"),
-    (255, "Slide 11: Technical Architecture"),
-    (270, "Slide 12: ROI Impact"),
-    (285, "Slide 13: Thank You"),
+    (0, "Slide 1: TechBio Lead Gen and SMYKM - Title"),
+    (23, "Slide 2: The Problem - 80% Research Time"),
+    (33, "Slide 3: Our Solution - 4 AI Agents"),
+    (43, "Slide 4: Demo - Alex Rives Target Lead"),
+    (52, "Slide 5: Step 1 - Lead Discovery"),
+    (60, "Slide 6: Step 2 - Profile Builder"),
+    (74, "Slide 7: Step 3 - Product Match"),
+    (87, "Slide 8: Step 4 - SMYKM Outreach"),
+    (99, "Slide 9: Key Personalization Hooks"),
+    (112, "Slide 10: Bonus Features - Sales Toolkit"),
+    (130, "Slide 11: Technical Implementation"),
+    (137, "Slide 12: ROI Impact - The Numbers"),
+    (144, "Slide 13: Thank You"),
 ]
 
 def connect_to_chrome(port=9222):
@@ -36,12 +49,16 @@ def connect_to_chrome(port=9222):
         if not tabs:
             return None
 
-        # Find the tab with slides
+        # Find the tab with slides - look for localhost:3000 or slides in URL/title
         slide_tab = None
         for tab in tabs:
-            if 'slides' in tab.get('url', '').lower() or 'slide' in tab.get('title', '').lower():
+            url = tab.get('url', '').lower()
+            title = tab.get('title', '').lower()
+            # Check for React app on port 3000 or slides in URL/title
+            if 'localhost:3000' in url or ':3000' in url or 'slides' in url or 'slide' in title:
                 slide_tab = tab
                 print(f"  Found slide tab: {tab.get('title', 'Untitled')[:50]}")
+                print(f"  URL: {tab.get('url', '')}")
                 break
 
         # If no slide tab found, use the first regular tab
@@ -49,6 +66,7 @@ def connect_to_chrome(port=9222):
             for tab in tabs:
                 if tab.get('type') == 'page' and not tab.get('url', '').startswith('chrome-extension'):
                     slide_tab = tab
+                    print(f"  Using tab: {tab.get('title', 'Untitled')[:50]}")
                     break
 
         if not slide_tab:

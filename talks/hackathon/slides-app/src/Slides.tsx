@@ -50,6 +50,7 @@ const Slides: React.FC = () => {
         }
         .reveal .slides {
           text-align: left;
+          font-size: 0.9em;
         }
         .reveal h1,
         .reveal h2,
@@ -59,13 +60,27 @@ const Slides: React.FC = () => {
           text-transform: none;
         }
         .reveal h1 {
-          font-size: 2.2em;
+          font-size: 1.8em;
+          margin-bottom: 0.3em;
         }
         .reveal h2 {
-          font-size: 1.5em;
+          font-size: 1.3em;
+          margin-bottom: 0.4em;
+        }
+        .reveal h3 {
+          font-size: 1.1em;
         }
         .reveal strong {
           color: #ff6b6b;
+        }
+        .reveal p {
+          font-size: 0.95em;
+          line-height: 1.4;
+        }
+        .reveal li {
+          font-size: 0.9em;
+          line-height: 1.3;
+          margin-bottom: 0.2em;
         }
         .reveal code,
         .reveal pre {
@@ -77,7 +92,7 @@ const Slides: React.FC = () => {
         .reveal pre {
           box-shadow: none;
           width: 100%;
-          font-size: 0.8em;
+          font-size: 0.7em;
         }
         .reveal a {
           color: #4ecdc4;
@@ -85,10 +100,11 @@ const Slides: React.FC = () => {
         .reveal blockquote {
           border-left: 4px solid #00d4ff;
           background: #16213e;
-          padding: 20px;
+          padding: 15px;
           font-style: italic;
           color: #eaeaea;
-          margin: 20px 0;
+          margin: 15px 0;
+          font-size: 0.9em;
         }
         .reveal ul,
         .reveal ol {
@@ -97,24 +113,29 @@ const Slides: React.FC = () => {
         }
         .reveal .slides section {
           height: 100%;
+          padding: 20px;
         }
         .reveal table {
-          margin: 20px 0;
+          margin: 15px 0;
           border-collapse: collapse;
+          font-size: 0.85em;
+          width: 100%;
         }
         .reveal th,
         .reveal td {
           border: 1px solid #2a3f5f !important;
-          padding: 10px !important;
+          padding: 8px !important;
         }
         .reveal th {
           background: #0f1527 !important;
           color: #00d4ff !important;
           font-weight: bold;
+          font-size: 0.9em;
         }
         .reveal td {
           background: #1a2332 !important;
           color: #eaeaea !important;
+          font-size: 0.85em;
         }
         .reveal tr:nth-child(even) td {
           background: #16213e !important;

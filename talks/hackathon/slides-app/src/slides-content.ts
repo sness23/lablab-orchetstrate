@@ -10,42 +10,42 @@ export const slidesContent = `
 
 <section>
 <h1>The Problem</h1>
-## Sales Reps Spend 80% of Time Researching SMYKM
+<h2>Sales Reps Spend 80% of Time Researching SMYKM</h2>
 
-- Show Me You Know Me (SMYKM)
-- Reading papers to understand their work
-- Finding equipment they use
-- Identifying pain points
-- Crafting personalized emails
+<ul>
+<li>Show Me You Know Me (SMYKM)</li>
+<li>Reading papers to understand their work</li>
+<li>Finding equipment they use</li>
+<li>Identifying pain points</li>
+<li>Crafting personalized emails</li>
+</ul>
 
-**Result**: Generic outreach that gets ignored
+<p><strong>Result</strong>: Generic outreach that gets ignored</p>
+</section>
 
----
+<section>
+<h1>Our Solution</h1>
+<h2>4 AI Agents in watsonx Orchestrate</h2>
 
-# Our Solution
-## 4 AI Agents in watsonx Orchestrate
-
-<div style="background: #1a2332; padding: 20px; border-radius: 8px; font-family: monospace;">
-<pre style="color: #00d4ff; margin: 0;">
-┌─────────────────────────────────────────────┐
+<div style="background: #1a2332; padding: 15px; border-radius: 8px; font-family: monospace; margin: 15px 0;">
+<pre style="color: #00d4ff; margin: 0; font-size: 0.65em;">┌─────────────────────────────────────────────┐
 │          watsonx Orchestrate                │
 └──────┬──────────┬──────────┬────────────────┘
        │          │          │
    ┌───▼───┐  ┌───▼───┐  ┌───▼───┐  ┌────────┐
    │ Lead  │→ │Profile│→ │Product│→ │ SMYKM  │
    │Search │  │Builder│  │ Match │  │Outreach│
-   └───────┘  └───────┘  └───────┘  └────────┘
-</pre>
+   └───────┘  └───────┘  └───────┘  └────────┘</pre>
 </div>
 
-**Find leads → Build profiles → Match products → Personalize outreach**
+<p><strong>Find leads → Build profiles → Match products → Personalize outreach</strong></p>
+</section>
 
----
+<section>
+<h1>Demo: Alex Rives</h1>
+<h2>Our Target Lead</h2>
 
-# Demo: Alex Rives
-## Our Target Lead
-
-<table style="width: 100%;">
+<table style="width: 100%; margin: 20px 0;">
   <tr>
     <th style="background: #0f1527; color: #00d4ff; padding: 10px; border: 1px solid #2a3f5f;">Attribute</th>
     <th style="background: #0f1527; color: #00d4ff; padding: 10px; border: 1px solid #2a3f5f;">Value</th>
@@ -71,15 +71,15 @@ export const slidesContent = `
     <td style="background: #1a2332; color: #eaeaea; padding: 10px; border: 1px solid #2a3f5f;">AI generates proteins in seconds, validation takes weeks</td>
   </tr>
 </table>
+</section>
 
----
+<section>
+<h1>Step 1: Lead Discovery</h1>
+<h2>"Find leads in AI protein design"</h2>
 
-# Step 1: Lead Discovery
-## "Find leads in AI protein design"
+<p><strong>watsonx returns:</strong></p>
 
-**watsonx returns:**
-
-<table style="width: 100%;">
+<table style="width: 100%; margin: 20px 0;">
   <tr>
     <th style="background: #0f1527; color: #00d4ff; padding: 10px; border: 1px solid #2a3f5f;">Name</th>
     <th style="background: #0f1527; color: #00d4ff; padding: 10px; border: 1px solid #2a3f5f;">Company</th>
@@ -94,29 +94,33 @@ export const slidesContent = `
   </tr>
 </table>
 
-**Why high score**: Recent funding, direct equipment need, acute pain point
+<p><strong>Why high score</strong>: Recent funding, direct equipment need, acute pain point</p>
+</section>
 
----
+<section>
+<h1>Step 2: Profile Builder</h1>
+<h2>"What equipment does Alex Rives need?"</h2>
 
-# Step 2: Profile Builder
-## "What equipment does Alex Rives need?"
+<p><strong>Equipment Needs:</strong></p>
+<ul>
+<li>High-throughput X-ray crystallography</li>
+<li>Automated crystal screening (96-well)</li>
+<li>Fast data collection systems</li>
+</ul>
 
-**Equipment Needs:**
-- High-throughput X-ray crystallography
-- Automated crystal screening (96-well)
-- Fast data collection systems
+<p><strong>Pain Point:</strong></p>
+<blockquote style="border-left: 4px solid #00d4ff; background: #16213e; padding: 12px; color: #eaeaea; margin: 15px 0; font-size: 0.9em;">
+"AI generates 1000 proteins/day. Traditional validation: 1-2/week. That's a <strong>10,000x bottleneck</strong>."
+</blockquote>
+</section>
 
-**Pain Point:**
-> "AI generates 1000 proteins/day. Traditional validation: 1-2/week. That's a **10,000x bottleneck**."
+<section>
+<h1>Step 3: Product Match</h1>
+<h2>"Match Rigaku products for Alex Rives"</h2>
 
----
+<h3>Recommended: XtaLAB Synergy-S</h3>
 
-# Step 3: Product Match
-## "Match Rigaku products for Alex Rives"
-
-### Recommended: XtaLAB Synergy-S
-
-<table style="width: 100%;">
+<table style="width: 100%; margin: 20px 0;">
   <tr>
     <th style="background: #0f1527; color: #00d4ff; padding: 10px; border: 1px solid #2a3f5f;">Factor</th>
     <th style="background: #0f1527; color: #00d4ff; padding: 10px; border: 1px solid #2a3f5f;">Synchrotron</th>
@@ -139,41 +143,43 @@ export const slidesContent = `
   </tr>
 </table>
 
-**Why it fits**: Closes the validation speed gap
+<p><strong>Why it fits</strong>: Closes the validation speed gap</p>
+</section>
 
----
+<section>
+<h1>Step 4: SMYKM Outreach</h1>
+<h2>"Generate personalized outreach for Alex Rives"</h2>
 
-# Step 4: SMYKM Outreach
-## "Generate personalized outreach for Alex Rives"
+<p><strong>Subject</strong>: Closing the loop on ESM3 validation</p>
 
-**Subject**: Closing the loop on ESM3 validation
-
-<blockquote style="border-left: 4px solid #00d4ff; background: #16213e; padding: 15px; color: #eaeaea;">
+<blockquote style="border-left: 4px solid #00d4ff; background: #16213e; padding: 12px; color: #eaeaea; margin: 15px 0; font-size: 0.85em;">
 Congratulations on the CZI announcement - excited to see ESM3's capabilities expand through Biohub.
 <br><br>
 I've been thinking about a bottleneck you're likely facing: <strong>ESM3 generates novel proteins in seconds, but traditional structural validation takes weeks.</strong>
 <br><br>
 The Rigaku XtaLAB Synergy-S could change that equation...
 </blockquote>
+</section>
 
----
+<section>
+<h1>Key Personalization Hooks</h1>
+<h2>What Makes It SMYKM</h2>
 
-# Key Personalization Hooks
-## What Makes It SMYKM
+<ul>
+<li>✅ References <strong>CZI/Biohub</strong> announcement</li>
+<li>✅ Mentions <strong>"500M years of evolution"</strong> achievement</li>
+<li>✅ Addresses <strong>validation bottleneck</strong> specifically</li>
+<li>✅ Connects product to <strong>his research goal</strong></li>
+</ul>
 
-- ✅ References **CZI/Biohub** announcement
-- ✅ Mentions **"500M years of evolution"** achievement
-- ✅ Addresses **validation bottleneck** specifically
-- ✅ Connects product to **his research goal**
+<p><strong>Every sentence shows we understand his work</strong></p>
+</section>
 
-**Every sentence shows we understand his work**
+<section>
+<h1>Bonus Features</h1>
+<h2>Complete Sales Toolkit</h2>
 
----
-
-# Bonus Features
-## Complete Sales Toolkit
-
-<table style="width: 100%;">
+<table style="width: 100%; margin: 20px 0;">
   <tr>
     <th style="background: #0f1527; color: #00d4ff; padding: 10px; border: 1px solid #2a3f5f;">Feature</th>
     <th style="background: #0f1527; color: #00d4ff; padding: 10px; border: 1px solid #2a3f5f;">Purpose</th>
@@ -203,31 +209,31 @@ The Rigaku XtaLAB Synergy-S could change that equation...
     <td style="background: #16213e; color: #eaeaea; padding: 10px; border: 1px solid #2a3f5f;">Social selling messages</td>
   </tr>
 </table>
+</section>
 
----
+<section>
+<h1>Technical Implementation</h1>
+<h2>How It Works</h2>
 
-# Technical Implementation
-## How It Works
-
-<div style="background: #1a2332; padding: 20px; border-radius: 8px; font-family: monospace;">
-<pre style="color: #00d4ff; margin: 0;">
-https://doi.bio/resources/
+<div style="background: #1a2332; padding: 15px; border-radius: 8px; font-family: monospace; margin: 15px 0;">
+<pre style="color: #00d4ff; margin: 0; font-size: 0.7em;">https://doi.bio/resources/
 ├── leads/alex-rives.md
 ├── products/rigaku-xray-systems.md
-└── outreach/alex-rives-smykm.md
-</pre>
+└── outreach/alex-rives-smykm.md</pre>
 </div>
 
-- **FastAPI backend** serves resources
-- **OpenAPI spec** for watsonx skill import
-- **Markdown files** for easy updates
+<ul>
+<li><strong>FastAPI backend</strong> serves resources</li>
+<li><strong>OpenAPI spec</strong> for watsonx skill import</li>
+<li><strong>Markdown files</strong> for easy updates</li>
+</ul>
+</section>
 
----
+<section>
+<h1>ROI Impact</h1>
+<h2>The Numbers</h2>
 
-# ROI Impact
-## The Numbers
-
-<table style="width: 100%;">
+<table style="width: 100%; margin: 20px 0;">
   <tr>
     <th style="background: #0f1527; color: #00d4ff; padding: 10px; border: 1px solid #2a3f5f;">Metric</th>
     <th style="background: #0f1527; color: #00d4ff; padding: 10px; border: 1px solid #2a3f5f;">Manual</th>
@@ -250,20 +256,22 @@ https://doi.bio/resources/
   </tr>
 </table>
 
-**Result**: 10x more leads, 7x better conversion
+<p><strong>Result</strong>: 10x more leads, 7x better conversion</p>
+</section>
 
----
+<section data-background="#0f0f23">
+<h1>Thank You</h1>
+<h2>TechBio Lead Gen & SMYKM</h2>
 
-<!-- .slide: data-background="#0f0f23" -->
-# Thank You
-## TechBio Lead Gen & SMYKM
+<p><strong>Turn public research into personalized sales</strong></p>
 
-**Turn public research into personalized sales**
+<h3>Demo</h3>
+<ul>
+<li>Lead: Alex Rives (ESM3, $142M)</li>
+<li>Product: Rigaku XtaLAB Synergy-S</li>
+<li>Result: Personalized email that converts</li>
+</ul>
 
-### Demo
-- Lead: Alex Rives (ESM3, $142M)
-- Product: Rigaku XtaLAB Synergy-S
-- Result: Personalized email that converts
-
-**GitHub**: github.com/sness23/lablab-orchestrate
+<p><strong>GitHub</strong>: github.com/sness23/lablab-orchestrate</p>
+</section>
 `;
