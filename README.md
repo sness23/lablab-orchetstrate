@@ -29,11 +29,11 @@
 
 <div align="center">
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/mvMO2BKs26g" title="SMYKM AI Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![SMYKM AI Demo](https://img.youtube.com/vi/mvMO2BKs26g/maxresdefault.jpg)](https://youtu.be/mvMO2BKs26g)
 
 [![Watch on YouTube](https://img.shields.io/badge/▶️_Watch_Demo_Video-5_minute_presentation-ff0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/mvMO2BKs26g)
 
-*Watch how SMYKM AI transforms Alex Rives' research into a personalized sales opportunity in under 5 minutes*
+*Click to watch how SMYKM AI transforms Alex Rives' research into a personalized sales opportunity in under 5 minutes*
 
 </div>
 
