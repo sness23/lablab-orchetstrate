@@ -62,16 +62,17 @@
 <div align="center">
 
 ```
-┌─────────────────────────────────────────────┐
-│          watsonx Orchestrate                │
-└─────────────────┬───────────────────────────┘
-                  │
-    ┌─────────────▼─────────────┐
-    │     4 AI Agents Chain     │
-    └───────────────────────────┘
-              ↓
-    [Lead Search] → [Profile Builder] →
-    [Product Match] → [SMYKM Outreach]
+watsonx Orchestrate
+        ↓
+[Lead Search]
+        ↓
+[Profile Builder]
+        ↓
+[Product Match]
+        ↓
+[SMYKM Outreach]
+        ↓
+Personalized Email Ready
 ```
 
 </div>
