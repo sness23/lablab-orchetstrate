@@ -4,14 +4,14 @@
 
 [![IBM watsonx](https://img.shields.io/badge/Powered%20by-IBM%20watsonx%20Orchestrate-0f62fe?style=for-the-badge&logo=ibm)](https://www.ibm.com/watsonx)
 [![Hackathon Winner](https://img.shields.io/badge/IBM%20Hackathon-2024-ff6b6b?style=for-the-badge)](https://lablab.ai)
-[![Demo](https://img.shields.io/badge/Watch-Demo%20Video-00d4ff?style=for-the-badge&logo=youtube)](./lablab-orchestrate.mp4)
+[![Demo](https://img.shields.io/badge/Watch-Demo%20Video-ff0000?style=for-the-badge&logo=youtube)](https://youtu.be/mvMO2BKs26g)
 [![License](https://img.shields.io/badge/License-MIT-4ecdc4?style=for-the-badge)](./LICENSE)
 
 <img src="talks/hackathon/cover_art.svg" alt="SMYKM AI Cover" width="800"/>
 
 ### 🎯 **AI-Powered Sales Intelligence that Transforms Scientific Publications into Personalized Outreach**
 
-[🎥 Watch Demo](./lablab-orchestrate.mp4) • [📊 View Slides](./talks/hackathon/slides.md) • [🚀 Try It Now](#quick-start) • [📖 Documentation](#documentation)
+[🎥 Watch Demo](https://youtu.be/mvMO2BKs26g) • [📊 View Slides](./talks/hackathon/slides.md) • [🚀 Try It Now](#quick-start) • [📖 Documentation](#documentation)
 
 ---
 
@@ -29,11 +29,11 @@
 
 <div align="center">
 
-https://github.com/user-attachments/assets/lablab-orchestrate.mp4
+[![SMYKM AI Demo](https://img.youtube.com/vi/mvMO2BKs26g/maxresdefault.jpg)](https://youtu.be/mvMO2BKs26g)
 
-[![Watch Demo](https://img.shields.io/badge/▶️_Watch_Demo_Video-5_minute_presentation-00d4ff?style=for-the-badge)](./lablab-orchestrate.mp4)
+[![Watch on YouTube](https://img.shields.io/badge/▶️_Watch_Demo_Video-5_minute_presentation-ff0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/mvMO2BKs26g)
 
-*Watch how SMYKM AI transforms Alex Rives' research into a personalized sales opportunity in under 5 minutes*
+*Click to watch how SMYKM AI transforms Alex Rives' research into a personalized sales opportunity in under 5 minutes*
 
 </div>
 
@@ -354,19 +354,6 @@ Week 6: Meeting request
 
 ---
 
-## 🏆 Awards & Recognition
-
-<div align="center">
-
-| 🥇 | 🎯 | 🚀 | 💡 |
-|:--:|:--:|:--:|:--:|
-| **IBM Hackathon** | **Innovation Award** | **Best Use of AI** | **Audience Choice** |
-| watsonx Orchestrate | Sales Intelligence | Life Sciences | Technical Excellence |
-
-</div>
-
----
-
 ## 👥 Team
 
 <div align="center">
@@ -402,8 +389,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <img src="https://img.shields.io/badge/Get%20Started-Now-00d4ff?style=for-the-badge&logo=rocket&logoColor=white" height="40"/>
 </a>
 
-<a href="./lablab-orchestrate.mp4">
-  <img src="https://img.shields.io/badge/Watch-Demo-ff6b6b?style=for-the-badge&logo=youtube&logoColor=white" height="40"/>
+<a href="https://youtu.be/mvMO2BKs26g">
+  <img src="https://img.shields.io/badge/Watch-Demo-ff0000?style=for-the-badge&logo=youtube&logoColor=white" height="40"/>
 </a>
 
 <a href="https://github.com/sness23/lablab-orchestrate/issues">
