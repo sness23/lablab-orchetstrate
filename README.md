@@ -76,10 +76,6 @@ https://github.com/user-attachments/assets/lablab-orchestrate.mp4
 
 ### 🎯 **Four AI Agents Working in Perfect Harmony**
 
-<table>
-<tr>
-<td width="50%">
-
 #### 1️⃣ **Lead Discovery Agent** 🔍
 ```python
 # Finds high-value prospects
@@ -88,9 +84,6 @@ https://github.com/user-attachments/assets/lablab-orchestrate.mp4
 - Scores on funding & urgency
 - Returns: Qualified lead list
 ```
-
-</td>
-<td width="50%">
 
 #### 2️⃣ **Profile Builder Agent** 📊
 ```python
@@ -101,11 +94,6 @@ https://github.com/user-attachments/assets/lablab-orchestrate.mp4
 - Returns: Comprehensive dossier
 ```
 
-</td>
-</tr>
-<tr>
-<td width="50%">
-
 #### 3️⃣ **Product Match Agent** 🎯
 ```python
 # Matches solutions to needs
@@ -115,9 +103,6 @@ https://github.com/user-attachments/assets/lablab-orchestrate.mp4
 - Returns: Perfect product fit
 ```
 
-</td>
-<td width="50%">
-
 #### 4️⃣ **SMYKM Outreach Agent** ✉️
 ```python
 # Crafts personalized messages
@@ -126,10 +111,6 @@ https://github.com/user-attachments/assets/lablab-orchestrate.mp4
 - Positions solutions
 - Returns: Email that converts
 ```
-
-</td>
-</tr>
-</table>
 
 ---
 
