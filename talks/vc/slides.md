@@ -7,14 +7,27 @@ color: #eaeaea
 style: |
   section {
     font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 28px;
   }
   h1 {
     color: #00d4ff;
-    font-size: 2.5em;
+    font-size: 2.2em;
+    margin-bottom: 0.3em;
   }
   h2 {
     color: #00d4ff;
-    font-size: 1.8em;
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+  }
+  h3 {
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+  }
+  p {
+    margin: 0.3em 0;
+  }
+  ul, ol {
+    margin: 0.3em 0;
   }
   strong {
     color: #ff6b6b;
@@ -53,11 +66,11 @@ style: |
 
 ## AI-Powered Sales Intelligence for Life Sciences
 
-<br>
+
 
 **IBM watsonx Orchestrate Hackathon**
 
-<br>
+
 
 *Turning Public Research into Personalized Outreach*
 
@@ -67,7 +80,7 @@ style: |
 
 ## TechBio Sales is Broken
 
-<br>
+
 
 ### Sales reps spend **80% of time** researching leads
 
@@ -76,7 +89,7 @@ style: |
 - Identifying pain points
 - Crafting personalized emails
 
-<br>
+
 
 ### Result: **Generic outreach that gets ignored**
 
@@ -86,14 +99,14 @@ style: |
 
 ## Researchers Publish Everything
 
-<br>
+
 
 - **Papers** → Equipment & reagents they use
 - **Preprints** → Current research direction
 - **Funding** → Budget for new tools
 - **News** → Recent achievements to reference
 
-<br>
+
 
 ### This is **public intelligence** waiting to be mined
 
@@ -103,7 +116,7 @@ style: |
 
 ## AI Agent Orchestrator
 
-<br>
+
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -116,7 +129,7 @@ style: |
    └───────┘  └───────┘  └───────┘  └───────┘
 ```
 
-<br>
+
 
 **4 specialized agents** working together
 
@@ -126,17 +139,17 @@ style: |
 
 ## The Key to TechBio Sales
 
-<br>
+
 
 ### Generic Email:
 > "Hi, I wanted to reach out about our X-ray systems..."
 
-<br>
+
 
 ### SMYKM Email:
 > "Your fluorescent protein paper showed 58% sequence identity - that's exactly the kind of novel structure that needs in-house validation..."
 
-<br>
+
 
 **Reference their work. Address their pain point.**
 
@@ -146,7 +159,7 @@ style: |
 
 ## AI Protein Design Domain - Top 10 Leads
 
-<br>
+
 
 | Rank | Name | Company | Score | Funding |
 |------|------|---------|-------|---------|
@@ -156,7 +169,7 @@ style: |
 | 4 | **Gevorg Grigoryan** | Generate:Biomedicines | 89 | $450M |
 | 5 | **David Baker** | UW IPD | 88 | $100M+ |
 
-<br>
+
 
 *+ 5 more leads: Insilico, Insitro, Recursion, DeepMind...*
 
@@ -166,7 +179,7 @@ style: |
 
 ## 10 Leads = **$2.4B+ in Funding**
 
-<br>
+
 
 | Company | Funding | Equipment Need |
 |---------|---------|----------------|
@@ -176,7 +189,7 @@ style: |
 | EvolutionaryScale | $142M | AI protein validation |
 | Latent Labs | $50M | Building from scratch |
 
-<br>
+
 
 ### All need crystallography for AI validation
 
@@ -186,7 +199,7 @@ style: |
 
 ## Our Top Lead
 
-<br>
+
 
 | Attribute | Value |
 |-----------|-------|
@@ -202,13 +215,13 @@ style: |
 
 ## Breakthrough AI for Protein Design
 
-<br>
+
 
 - Trained on **2.78 billion proteins**
 - Generated novel proteins = **500M years of evolution**
 - Partners: **AWS, NVIDIA**
 
-<br>
+
 
 ### His need: Validate AI-generated structures at scale
 
@@ -218,18 +231,18 @@ style: |
 
 ## Speed Mismatch
 
-<br>
+
 
 ```
 AI Protein Generation:     1000 proteins/day
 Traditional Validation:    1-2 proteins/week
 ```
 
-<br>
+
 
 ### That's a **10,000x bottleneck**
 
-<br>
+
 
 His AI is fast. His validation is slow.
 
@@ -239,7 +252,7 @@ His AI is fast. His validation is slow.
 
 ## XtaLAB Synergy-S
 
-<br>
+
 
 ### Why it fits:
 - **Hours** instead of days per structure
@@ -247,7 +260,7 @@ His AI is fast. His validation is slow.
 - **96-well screening** with XtalCheck-S
 - **On-site** - no synchrotron scheduling
 
-<br>
+
 
 ### Close the validation loop at AI speed
 
@@ -257,7 +270,7 @@ His AI is fast. His validation is slow.
 
 ## SMYKM Email
 
-<br>
+
 
 **Subject**: Closing the loop on ESM3 validation
 
@@ -273,14 +286,14 @@ His AI is fast. His validation is slow.
 
 ## What Makes It SMYKM
 
-<br>
+
 
 - ✅ References **"500M years of evolution"** paper
 - ✅ Mentions **CZI/Biohub** announcement
 - ✅ Addresses **validation bottleneck** specifically
 - ✅ Connects product to **their research goal**
 
-<br>
+
 
 **Every sentence shows we understand their work**
 
@@ -290,7 +303,7 @@ His AI is fast. His validation is slow.
 
 ## How It Works
 
-<br>
+
 
 ### 1. Lead Discovery Agent
 Searches publications, extracts researchers
@@ -310,7 +323,7 @@ Generates personalized email + strategy
 
 ## 3 Additional Features That Close Deals
 
-<br>
+
 
 ### 1. Competitive Battlecards
 - What they use now (synchrotron, CRO)
@@ -332,7 +345,7 @@ Generates personalized email + strategy
 
 ## Why Rigaku Wins vs. Synchrotron
 
-<br>
+
 
 | Factor | Synchrotron | Rigaku | Winner |
 |--------|-------------|--------|--------|
@@ -341,7 +354,7 @@ Generates personalized email + strategy
 | Cost/structure | $500-2000 | ~$50 | **Rigaku** |
 | Speed | Days | Hours | **Rigaku** |
 
-<br>
+
 
 **Killer argument**: "Your AI generates 1000 proteins/day. Synchrotron validates 2/week. On-site closes that gap."
 
@@ -351,7 +364,7 @@ Generates personalized email + strategy
 
 ## "We already have synchrotron access"
 
-<br>
+
 
 **Response**:
 
@@ -359,7 +372,7 @@ Generates personalized email + strategy
 >
 > On-site capability handles the volume; reserve synchrotron for edge cases."
 
-<br>
+
 
 *Response auto-personalized with lead's funding, company, and pain points*
 
@@ -369,7 +382,7 @@ Generates personalized email + strategy
 
 ## Before Your Call with Alex Rives
 
-<br>
+
 
 **30-Second Background**: Head of Science at CZI, built ESM3, $142M funding
 
@@ -390,7 +403,7 @@ Generates personalized email + strategy
 
 ## AI Explains Its Reasoning
 
-<br>
+
 
 **Alex Rives: 87% Probability**
 
@@ -410,7 +423,7 @@ Generates personalized email + strategy
 
 ## 6-Week Sequence for Alex Rives
 
-<br>
+
 
 | Week | Channel | Action |
 |------|---------|--------|
@@ -422,7 +435,7 @@ Generates personalized email + strategy
 | 5 | Email | Demo offer |
 | 6 | Email | Executive touch |
 
-<br>
+
 
 *10 touches across 3 channels over 6 weeks*
 
@@ -432,12 +445,12 @@ Generates personalized email + strategy
 
 ## Multi-Channel Approach
 
-<br>
+
 
 ### Connection Request (300 char limit)
 > "Hi Alex, I've been following EvolutionaryScale's work on AI protein generation. ESM3 caught my attention - impressive results. Would love to connect and learn more about your validation workflows."
 
-<br>
+
 
 ### Comment Templates
 > "Fascinating approach to AI protein generation. The throughput implications for validation are significant - would love to hear more..."
@@ -446,7 +459,7 @@ Generates personalized email + strategy
 
 # Complete Platform: 10 Capabilities
 
-<br>
+
 
 | # | Capability | Purpose |
 |---|------------|---------|
@@ -467,7 +480,7 @@ Generates personalized email + strategy
 
 ## External Resources on doi.bio
 
-<br>
+
 
 ```
 https://doi.bio/resources/
@@ -476,7 +489,7 @@ https://doi.bio/resources/
 └── outreach/alex-rives-smykm.md
 ```
 
-<br>
+
 
 ### watsonx fetches markdown → AI processes → Response
 
@@ -486,7 +499,7 @@ https://doi.bio/resources/
 
 ## Custom Skill Definitions
 
-<br>
+
 
 | Skill | Function |
 |-------|----------|
@@ -495,7 +508,7 @@ https://doi.bio/resources/
 | `techbio-product-match` | Match products to needs |
 | `techbio-smykm-generate` | Create personalized outreach |
 
-<br>
+
 
 Skills chain automatically or run individually
 
@@ -505,7 +518,7 @@ Skills chain automatically or run individually
 
 ## watsonx Orchestrate Commands
 
-<br>
+
 
 ```
 Find leads in AI protein design
@@ -529,14 +542,14 @@ Generate personalized outreach for Alex Rives
 
 ## For Sales Teams
 
-<br>
+
 
 ### Before (Manual Research)
 - 2-3 hours per lead
 - Generic outreach
 - Low response rates
 
-<br>
+
 
 ### After (AI Orchestrator)
 - **Minutes** per lead
@@ -549,7 +562,7 @@ Generate personalized outreach for Alex Rives
 
 ## The Numbers
 
-<br>
+
 
 | Metric | Manual | AI-Assisted | Improvement |
 |--------|--------|-------------|-------------|
@@ -558,7 +571,7 @@ Generate personalized outreach for Alex Rives
 | Response rate | 2% | 15%+ | **7x higher** |
 | Revenue/rep | $500K | $3.5M | **7x more** |
 
-<br>
+
 
 ### Annual Impact (10-person sales team)
 **$30M additional revenue potential**
@@ -569,7 +582,7 @@ Generate personalized outreach for Alex Rives
 
 ## Real Numbers for TechBio Sales
 
-<br>
+
 
 ### Assumptions
 - Average deal size: $350K (equipment sale)
@@ -587,13 +600,13 @@ Generate personalized outreach for Alex Rives
 
 ## TechBio is Huge
 
-<br>
+
 
 - **$1.3T** life sciences market
 - **Thousands** of equipment vendors
 - **Millions** of researchers publishing
 
-<br>
+
 
 ### Every researcher is a potential lead
 ### Every paper is sales intelligence
@@ -604,7 +617,7 @@ Generate personalized outreach for Alex Rives
 
 ## What's Next
 
-<br>
+
 
 - 📡 **Paper monitoring** - Alerts when leads publish
 - 🔗 **CRM integration** - Sync with Salesforce
@@ -617,7 +630,7 @@ Generate personalized outreach for Alex Rives
 
 ## Why This Wins
 
-<br>
+
 
 ### vs. LinkedIn Sales Navigator
 We read their **actual papers**, not just job changes
@@ -634,13 +647,13 @@ We reference **specific research**, not templates
 
 ## Built With
 
-<br>
+
 
 - **watsonx Orchestrate** - Agent orchestration
 - **Markdown** - External knowledge resources
 - **doi.bio** - Resource hosting
 
-<br>
+
 
 ### Simple, extensible, maintainable
 
@@ -652,17 +665,17 @@ We reference **specific research**, not templates
 
 ## TechBio Lead Gen & SMYKM
 
-<br>
+
 
 **Turn public research into personalized sales**
 
-<br>
+
 
 ### Links
 - GitHub: github.com/sness23/lablab-orchestrate
 - Resources: doi.bio/resources
 
-<br>
+
 
 *Questions?*
 
@@ -672,7 +685,7 @@ We reference **specific research**, not templates
 
 ## Full Email Generated
 
-<br>
+
 
 **Subject**: Closing the loop on ESM3 validation
 
@@ -690,7 +703,7 @@ Would a 15-minute call to discuss your validation infrastructure make sense?
 
 ## Complete Orchestration
 
-<br>
+
 
 ```
 User: "Find TechBio leads and generate outreach"
