@@ -29,9 +29,11 @@
 
 <div align="center">
 
+https://github.com/user-attachments/assets/lablab-orchestrate.mp4
+
 [![Watch Demo](https://img.shields.io/badge/▶️_Watch_Demo_Video-5_minute_presentation-00d4ff?style=for-the-badge)](./lablab-orchestrate.mp4)
 
-*Click above to watch how SMYKM AI transforms Alex Rives' research into a personalized sales opportunity in under 5 minutes*
+*Watch how SMYKM AI transforms Alex Rives' research into a personalized sales opportunity in under 5 minutes*
 
 </div>
 
@@ -139,7 +141,7 @@
 
 <img src="https://img.shields.io/badge/Challenge-Protein%20Validation%20Bottleneck-red?style=for-the-badge&labelColor=1a1a2e"/>
 <img src="https://img.shields.io/badge/Solution-Rigaku%20XtaLAB%20Synergy--S-green?style=for-the-badge&labelColor=1a1a2e"/>
-<img src="https://img.shields.io/badge/Result-Meeting%20Booked-00d4ff?style=for-the-badge&labelColor=1a1a2e"/>
+<img src="https://img.shields.io/badge/Result-Personalized%20Outreach%20Generated-00d4ff?style=for-the-badge&labelColor=1a1a2e"/>
 
 </div>
 
@@ -163,7 +165,7 @@ Personalized Outreach:
   - Addressed validation bottleneck specifically ✓
   - Positioned product as perfect solution ✓
 
-Result: Qualified meeting within 48 hours
+Result: Highly targeted outreach ready for deployment
 ```
 
 ---
