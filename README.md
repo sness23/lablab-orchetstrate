@@ -214,31 +214,14 @@ python sync_present.py
 
 <div align="center">
 
-```python
-# Actual Results from Production Testing
-{
-    "research_time": {
-        "before": "180 minutes",
-        "after": "5 minutes",
-        "improvement": "36x faster"
-    },
-    "response_rate": {
-        "before": "2%",
-        "after": "15%",
-        "improvement": "7.5x better"
-    },
-    "leads_generated": {
-        "before": "2 per day",
-        "after": "20 per day",
-        "improvement": "10x more"
-    },
-    "personalization_depth": {
-        "before": "Name + Company",
-        "after": "Research + Pain Points + Achievements + Solutions",
-        "improvement": "True SMYKM"
-    }
-}
-```
+### **Actual Results from Production Testing**
+
+| Metric | Before SMYKM | After SMYKM | Improvement |
+|--------|-------------|------------|-------------|
+| **Research Time** | 180 minutes | 5 minutes | **36x faster** 🚀 |
+| **Response Rate** | 2% | 15% | **7.5x better** 📈 |
+| **Leads Generated** | 2 per day | 20 per day | **10x more** 💰 |
+| **Personalization** | Name + Company | Research + Pain Points + Achievements + Solutions | **True SMYKM** 🎯 |
 
 ### 📈 **ROI Calculator**
 
