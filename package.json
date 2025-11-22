@@ -1,0 +1,26 @@
+{
+  "name": "lablab-orchestrate",
+  "version": "1.0.0",
+  "description": "**IBM watsonx Orchestrate Hackathon Project**",
+  "main": "index.js",
+  "scripts": {
+    "slides": "npx @marp-team/marp-cli slides.md -o slides.pdf",
+    "slides:watch": "npx @marp-team/marp-cli slides.md -o slides.pdf --watch",
+    "slides:html": "npx @marp-team/marp-cli slides.md -o slides.html",
+    "slides:pptx": "npx @marp-team/marp-cli slides.md -o slides.pptx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sness23/lablab-orchetstrate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sness23/lablab-orchetstrate/issues"
+  },
+  "homepage": "https://github.com/sness23/lablab-orchetstrate#readme",
+  "dependencies": {
+    "@marp-team/marp-cli": "^4.2.3"
+  }
+}

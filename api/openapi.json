@@ -1,0 +1,426 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "TechBio Lead Gen & SMYKM API",
+    "description": "AI-powered lead generation and personalized outreach for TechBio sales. Mines academic publications to find leads, build profiles, match products, and generate Show Me You Know Me (SMYKM) personalized emails.",
+    "version": "1.0.0",
+    "contact": {
+      "name": "TechBio Lead Gen",
+      "url": "https://doi.bio"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://doi.bio/api/v1",
+      "description": "Production server"
+    }
+  ],
+  "paths": {
+    "/leads/search": {
+      "get": {
+        "operationId": "searchLeads",
+        "summary": "Search for TechBio leads",
+        "description": "Find potential leads in TechBio by searching research domains. Returns researchers with high opportunity scores based on funding, publications, and equipment needs.",
+        "parameters": [
+          {
+            "name": "domain",
+            "in": "query",
+            "required": true,
+            "description": "Research domain to search (e.g., 'protein design', 'CRISPR', 'mRNA therapeutics')",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "description": "Maximum number of leads to return",
+            "schema": {
+              "type": "integer",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of leads matching the search criteria",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LeadSearchResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/leads/{leadId}": {
+      "get": {
+        "operationId": "getLeadProfile",
+        "summary": "Get detailed lead profile",
+        "description": "Retrieve comprehensive profile for a lead including background, research focus, equipment needs, pain points, and funding status.",
+        "parameters": [
+          {
+            "name": "leadId",
+            "in": "path",
+            "required": true,
+            "description": "Lead identifier (e.g., 'alex-rives')",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Detailed lead profile",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LeadProfile"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Lead not found"
+          }
+        }
+      }
+    },
+    "/products/match": {
+      "get": {
+        "operationId": "matchProducts",
+        "summary": "Match products to lead needs",
+        "description": "Find products from vendor catalogs that match a lead's specific equipment needs and pain points.",
+        "parameters": [
+          {
+            "name": "leadId",
+            "in": "query",
+            "required": true,
+            "description": "Lead identifier to match products for",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "vendor",
+            "in": "query",
+            "required": false,
+            "description": "Filter by vendor (e.g., 'rigaku')",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Product recommendations with rationale",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductMatchResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/outreach/generate": {
+      "post": {
+        "operationId": "generateOutreach",
+        "summary": "Generate SMYKM personalized outreach",
+        "description": "Create personalized email and outreach strategy using Show Me You Know Me methodology. References specific research, achievements, and pain points.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OutreachRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Personalized outreach package",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OutreachResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "LeadSearchResponse": {
+        "type": "object",
+        "properties": {
+          "domain": {
+            "type": "string",
+            "description": "Search domain used"
+          },
+          "total": {
+            "type": "integer",
+            "description": "Total leads found"
+          },
+          "leads": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LeadSummary"
+            }
+          }
+        }
+      },
+      "LeadSummary": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Lead identifier"
+          },
+          "name": {
+            "type": "string",
+            "description": "Full name"
+          },
+          "title": {
+            "type": "string",
+            "description": "Current title/role"
+          },
+          "affiliation": {
+            "type": "string",
+            "description": "Current organization"
+          },
+          "research_focus": {
+            "type": "string",
+            "description": "Primary research area"
+          },
+          "opportunity_score": {
+            "type": "integer",
+            "description": "Score from 0-100 indicating sales opportunity"
+          },
+          "funding": {
+            "type": "string",
+            "description": "Recent funding information"
+          }
+        }
+      },
+      "LeadProfile": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "affiliation": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "contact": {
+            "type": "object",
+            "properties": {
+              "twitter": {
+                "type": "string"
+              },
+              "linkedin": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              }
+            }
+          },
+          "background": {
+            "type": "string",
+            "description": "Professional background summary"
+          },
+          "research": {
+            "type": "object",
+            "properties": {
+              "focus": {
+                "type": "string"
+              },
+              "key_projects": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "recent_publications": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "equipment_needs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Identified equipment requirements"
+          },
+          "pain_points": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Research bottlenecks and challenges"
+          },
+          "funding": {
+            "type": "object",
+            "properties": {
+              "amount": {
+                "type": "string"
+              },
+              "investors": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "date": {
+                "type": "string"
+              }
+            }
+          },
+          "opportunity_score": {
+            "type": "integer"
+          },
+          "opportunity_rationale": {
+            "type": "string"
+          }
+        }
+      },
+      "ProductMatchResponse": {
+        "type": "object",
+        "properties": {
+          "lead_id": {
+            "type": "string"
+          },
+          "recommendations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ProductRecommendation"
+            }
+          }
+        }
+      },
+      "ProductRecommendation": {
+        "type": "object",
+        "properties": {
+          "product_name": {
+            "type": "string"
+          },
+          "vendor": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "why_it_fits": {
+            "type": "string",
+            "description": "Explanation of why this product matches lead's needs"
+          },
+          "key_features": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "addresses_pain_point": {
+            "type": "string",
+            "description": "Which pain point this product addresses"
+          },
+          "estimated_roi": {
+            "type": "string"
+          },
+          "priority": {
+            "type": "string",
+            "enum": ["primary", "secondary", "optional"]
+          }
+        }
+      },
+      "OutreachRequest": {
+        "type": "object",
+        "required": ["lead_id"],
+        "properties": {
+          "lead_id": {
+            "type": "string",
+            "description": "Lead to generate outreach for"
+          },
+          "product": {
+            "type": "string",
+            "description": "Specific product to pitch (optional)"
+          },
+          "tone": {
+            "type": "string",
+            "enum": ["professional", "casual", "technical"],
+            "default": "professional"
+          }
+        }
+      },
+      "OutreachResponse": {
+        "type": "object",
+        "properties": {
+          "lead_id": {
+            "type": "string"
+          },
+          "email": {
+            "type": "object",
+            "properties": {
+              "subject": {
+                "type": "string"
+              },
+              "body": {
+                "type": "string"
+              }
+            }
+          },
+          "personalization_hooks": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Specific references to lead's work used in email"
+          },
+          "talking_points": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "follow_up_strategy": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "week": {
+                  "type": "integer"
+                },
+                "action": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
