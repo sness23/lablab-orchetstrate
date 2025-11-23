@@ -1,0 +1,617 @@
+{
+  "metadata": {
+    "generated": "2024-11-22",
+    "system": "SMYKM AI - Sales Intelligence Platform",
+    "description": "AI-powered lead scoring and personalized outreach for TechBio/Life Sciences",
+    "total_leads": 8,
+    "average_score": 90.1,
+    "total_deal_potential": "$19.3M - $31.1M",
+    "hottest_sectors": ["AI Protein Design", "Drug Discovery", "CRISPR"],
+    "recommended_products": [
+      "Rigaku XtaLAB Synergy-S",
+      "Rigaku SmartLab System",
+      "Rigaku Enterprise Platform"
+    ]
+  },
+  "leads": [
+    {
+      "id": "alex-rives-001",
+      "rank": 1,
+      "name": "Alex Rives",
+      "score": 95,
+      "priority": "HIGHEST",
+      "title": "Head of Science",
+      "company": "Chan Zuckerberg Initiative (CZI)",
+      "previousCompany": "EvolutionaryScale",
+      "email": "arives@evolutionaryscale.ai",
+      "phone": "+1-650-555-0195",
+      "linkedIn": "https://www.linkedin.com/in/alexrives/",
+      "twitter": "@alexrives_ai",
+      "location": "Palo Alto, CA",
+      "research": {
+        "focus": "ESM3 - AI protein generation model",
+        "achievement": "Simulated 500 million years of evolution with AI",
+        "publications": [
+          "ESM3: Simulating 500 million years of evolution with a multimodal generative model",
+          "Language models enable zero-shot prediction of the effects of mutations on protein function"
+        ],
+        "citations": 5420,
+        "h_index": 38,
+        "painPoints": [
+          "AI generates 1000+ protein designs per day",
+          "Validation bottleneck - takes weeks for crystallography",
+          "Limited synchrotron beamtime availability",
+          "High cost of external validation services"
+        ],
+        "currentTools": ["AlphaFold", "ChimeraX", "External CRO services"],
+        "budget": "$3-5M annually for structural biology"
+      },
+      "funding": {
+        "amount": "$142M",
+        "round": "Seed",
+        "date": "2024",
+        "valuation": "$500M+",
+        "investors": ["Lux Capital", "Nat Friedman", "Daniel Gross"],
+        "runway": "4+ years"
+      },
+      "productMatch": {
+        "product": "Rigaku XtaLAB Synergy-S",
+        "fitScore": 98,
+        "reasons": [
+          "24/7 in-house availability vs weeks for synchrotron",
+          "$50/structure vs $2000 at facilities",
+          "Hours vs days turnaround time",
+          "Perfect for high-throughput protein validation"
+        ],
+        "competitors": ["Bruker D8 VENTURE", "Thermo Fisher Glacios"],
+        "whyWin": "Superior automation and AI integration",
+        "valueProposition": "Eliminate your protein validation bottleneck - validate 1000s of ESM3 designs in-house at 40x lower cost"
+      },
+      "personalizedOutreach": {
+        "emailSubject": "Alex - Eliminate ESM3's validation bottleneck with in-house crystallography",
+        "emailBody": "Dear Alex,\n\nCongratulations on the groundbreaking announcement from CZI about your protein design platform! Your work simulating 500 million years of evolution with ESM3 is reshaping how we approach biological engineering.\n\nI imagine the challenge you're facing: ESM3 can generate 1000+ protein designs per day, but validating them through traditional crystallography creates a massive bottleneck. Waiting weeks for synchrotron beamtime while breakthrough designs sit in queue must be frustrating.\n\nWhat if you could validate every ESM3 design in-house, within hours instead of weeks?\n\nThe Rigaku XtaLAB Synergy-S was built for exactly this challenge:\n- 24/7 availability in your lab (no more synchrotron queues)\n- $50 per structure vs. $2000+ at facilities\n- 2-hour turnaround for most proteins\n- Automated operation - run overnight validation batches\n\nThree of your peers at AI-first biotech companies saw their validation throughput increase by 50x within the first month. One mentioned: 'We went from validating 10 proteins a month to 10 proteins a day.'\n\nWould you be interested in a 15-minute call next week to explore how we could eliminate ESM3's validation bottleneck?\n\nBest regards,\n[Your Name]",
+        "linkedInMessage": "Hi Alex - Just read about ESM3's incredible achievement simulating 500M years of evolution. The bottleneck between AI-speed design and traditional validation must be challenging. We've helped similar AI-first biotechs increase validation throughput by 50x. Worth a quick chat?",
+        "outreachHooks": [
+          "Reference CZI announcement about protein design platform",
+          "Mention '500 million years of evolution' achievement",
+          "Acknowledge validation bottleneck challenge",
+          "Position as enabling ESM3 to reach full potential",
+          "Use peer examples from AI biotech companies"
+        ],
+        "followUpSequence": [
+          {"day": 7, "type": "Value Focus", "subject": "Quick thought on ESM3's potential with unlimited validation capacity"},
+          {"day": 14, "type": "Case Study", "subject": "How [Similar Company] validates 300 AI-designed proteins monthly"},
+          {"day": 21, "type": "ROI Analysis", "subject": "ESM3 validation ROI: $2M saved, 50x throughput increase"},
+          {"day": 28, "type": "Urgency", "subject": "Q4 installation slots filling up - ESM3 validation solution"}
+        ]
+      },
+      "dealIntelligence": {
+        "size": "$850K - $1.2M",
+        "timeline": "Q1 2025",
+        "probability": "85%",
+        "decisionProcess": "Technical evaluation -> POC -> Procurement",
+        "decisionMakers": ["Alex Rives (Champion)", "CZI Procurement", "Lab Director"],
+        "successCriteria": ["Throughput", "Cost per structure", "Automation level"],
+        "risks": ["Budget freeze", "Competing priority"],
+        "nextSteps": [
+          "Send personalized email",
+          "Connect on LinkedIn",
+          "Set Google Alert for ESM3 news",
+          "Prepare custom ROI calculator",
+          "Book demo lab time"
+        ]
+      }
+    },
+    {
+      "id": "john-jumper-002",
+      "rank": 2,
+      "name": "John Jumper",
+      "score": 92,
+      "priority": "HIGHEST",
+      "title": "Senior Research Scientist / AlphaFold Lead",
+      "company": "DeepMind (Google)",
+      "email": "jumper@deepmind.com",
+      "phone": "+44-20-555-0192",
+      "linkedIn": "https://www.linkedin.com/in/john-jumper/",
+      "twitter": "@john_jumper",
+      "location": "London, UK",
+      "research": {
+        "focus": "AlphaFold3 - Protein structure prediction",
+        "achievement": "Nobel Prize in Chemistry 2024, solved 200M+ protein structures",
+        "publications": [
+          "Highly accurate protein structure prediction with AlphaFold",
+          "AlphaFold3: Accurate structure prediction of biomolecular interactions"
+        ],
+        "citations": 28500,
+        "h_index": 52,
+        "painPoints": [
+          "Need to validate AlphaFold predictions experimentally",
+          "Scaling validation to match prediction throughput",
+          "Drug discovery applications need rapid structure confirmation",
+          "Integration between computational and experimental pipelines"
+        ],
+        "currentTools": ["Diamond Light Source", "In-house NMR", "CryoEM"],
+        "budget": "Part of Google DeepMind - significant R&D budget"
+      },
+      "funding": {
+        "amount": "Part of Google/Alphabet",
+        "budget": "Significant R&D budget",
+        "partnerships": ["Isomorphic Labs", "Multiple pharma companies"],
+        "resources": "Access to Google Cloud infrastructure"
+      },
+      "productMatch": {
+        "product": "Rigaku SmartLab System with AI Integration",
+        "fitScore": 95,
+        "reasons": [
+          "Automated validation of AlphaFold predictions",
+          "API integration with computational pipelines",
+          "High-throughput crystallography matching AI speed",
+          "ML-powered data analysis for structure refinement"
+        ],
+        "competitors": ["Bruker", "PANalytical"],
+        "whyWin": "Best AI/ML integration and automation",
+        "valueProposition": "Close the loop between AlphaFold predictions and experimental validation - automated, integrated, at scale"
+      },
+      "personalizedOutreach": {
+        "emailSubject": "John - Congratulations on the Nobel Prize! Scaling AlphaFold validation",
+        "emailBody": "Dear John,\n\nCongratulations on the Nobel Prize - a well-deserved recognition for AlphaFold's transformation of structural biology!\n\nAs AlphaFold3 tackles increasingly complex biomolecular interactions, I imagine the challenge of experimental validation at scale is becoming critical. When you can predict thousands of structures daily but validation takes weeks, it creates an innovation bottleneck.\n\nWe've developed an AI-integrated validation platform specifically for this challenge - automated validation of predictions with full pipeline integration. Several DeepMind alumni at biotech startups are using it to validate 100+ AlphaFold predictions weekly.\n\nWould you be interested in discussing how to scale experimental validation to match AlphaFold's computational power?\n\nBest regards,\n[Your Name]",
+        "linkedInMessage": "Congratulations on the Nobel Prize, John! As AlphaFold3 scales, matching experimental validation to computational predictions must be challenging. We've helped similar teams achieve 100+ validations/week. Worth exploring?",
+        "outreachHooks": [
+          "Congratulate on Nobel Prize",
+          "Reference AlphaFold3's biomolecular interaction capabilities",
+          "Position as bridging computational-experimental gap",
+          "Mention successful DeepMind alumni using our systems"
+        ]
+      },
+      "dealIntelligence": {
+        "size": "$2M - $3.5M",
+        "timeline": "Q2 2025",
+        "probability": "75%",
+        "decisionProcess": "Technical review -> Google procurement -> Implementation",
+        "decisionMakers": ["John Jumper", "Demis Hassabis", "Google Procurement"],
+        "successCriteria": ["Integration with AlphaFold", "Throughput", "Automation"],
+        "risks": ["Internal development preference", "Long procurement cycle"]
+      }
+    },
+    {
+      "id": "roshan-rao-003",
+      "rank": 3,
+      "name": "Roshan Rao",
+      "score": 88,
+      "priority": "HIGH",
+      "title": "Research Scientist",
+      "company": "Meta AI (FAIR)",
+      "previousCompany": "UC Berkeley",
+      "email": "roshanrao@meta.com",
+      "phone": "+1-650-555-0188",
+      "linkedIn": "https://www.linkedin.com/in/roshan-rao/",
+      "twitter": "@roshanrao_ai",
+      "location": "Menlo Park, CA",
+      "research": {
+        "focus": "ESM-2 and protein language models",
+        "achievement": "Built ESM-2 with 15B parameters, largest protein language model",
+        "publications": [
+          "MSA Transformer",
+          "ESM-2: Language models of protein sequences at the scale of evolution"
+        ],
+        "citations": 8200,
+        "h_index": 29,
+        "painPoints": [
+          "Validating protein function predictions at scale",
+          "Need for rapid experimental feedback loops",
+          "Connecting sequence predictions to 3D structures",
+          "Building comprehensive protein-function databases"
+        ],
+        "currentTools": ["External validation services", "Limited in-house capability"],
+        "budget": "Part of Meta FAIR budget"
+      },
+      "funding": {
+        "amount": "Part of Meta",
+        "budget": "FAIR has substantial research budget",
+        "openSource": true,
+        "collaborations": ["Academic partners", "Open source community"]
+      },
+      "productMatch": {
+        "product": "Rigaku XtaLAB Synergy-ED",
+        "fitScore": 90,
+        "reasons": [
+          "Electron diffraction for smaller protein crystals",
+          "Faster structure determination for model validation",
+          "Compatible with Meta's open-source approach",
+          "Enables rapid protein-function correlation studies"
+        ],
+        "valueProposition": "Accelerate ESM-2 validation with electron diffraction - get structures from nanocrystals in minutes"
+      },
+      "personalizedOutreach": {
+        "emailSubject": "Roshan - Closing the loop on ESM-2's protein predictions",
+        "emailBody": "Hi Roshan,\n\nYour work on ESM-2 has been transformative for the field - 15B parameters learning the language of proteins is incredible!\n\nI imagine validating ESM-2's functional predictions experimentally at scale is a key challenge. When the model can predict thousands of sequences but validation is bottlenecked, it limits the impact of your groundbreaking work.\n\nWe've developed electron diffraction capabilities that work with nanocrystals - perfect for rapid validation of ESM-2 predictions. This aligns well with Meta's open science approach, enabling the community to validate predictions faster.\n\nWould you be open to a brief discussion about accelerating ESM-2's experimental validation?\n\nBest,\n[Your Name]",
+        "outreachHooks": [
+          "Acknowledge ESM-2's impact on the field",
+          "Reference Meta's commitment to open science",
+          "Connect to protein function validation challenges",
+          "Mention collaboration opportunities with academic partners"
+        ]
+      },
+      "dealIntelligence": {
+        "size": "$1.5M - $2M",
+        "timeline": "Q1 2025",
+        "probability": "70%",
+        "decisionProcess": "Technical evaluation -> Meta procurement",
+        "decisionMakers": ["Roshan Rao", "FAIR Leadership", "Meta Procurement"],
+        "successCriteria": ["Open source compatibility", "Validation speed", "Data sharing"]
+      }
+    },
+    {
+      "id": "david-baker-004",
+      "rank": 4,
+      "name": "David Baker",
+      "score": 94,
+      "priority": "HIGHEST",
+      "title": "Director, Institute for Protein Design",
+      "company": "University of Washington",
+      "email": "dabaker@uw.edu",
+      "phone": "+1-206-555-0194",
+      "linkedIn": "https://www.linkedin.com/in/david-baker-ipd/",
+      "twitter": "@DavidBakerIPD",
+      "location": "Seattle, WA",
+      "research": {
+        "focus": "De novo protein design with RoseTTAFold and RFdiffusion",
+        "achievement": "Nobel Prize in Chemistry 2024, created proteins never seen in nature",
+        "publications": [
+          "De novo design of protein structure and function",
+          "RFdiffusion: Accurate design of novel protein structures"
+        ],
+        "citations": 45000,
+        "h_index": 128,
+        "painPoints": [
+          "Validating hundreds of designed proteins monthly",
+          "Need for rapid structure confirmation",
+          "Training students on crystallography",
+          "Managing multiple projects with limited beamtime"
+        ],
+        "currentTools": ["Advanced Light Source", "In-house diffractometer (aging)"],
+        "budget": "$50M+ in active grants"
+      },
+      "funding": {
+        "amount": "$50M+ in active grants",
+        "sources": ["NIH", "NSF", "HHMI", "Gates Foundation"],
+        "spinoffs": ["Arzeda", "Cyrus Biotechnology", "Monod Bio"],
+        "commercialization": "Active tech transfer"
+      },
+      "productMatch": {
+        "product": "Rigaku XtaLAB Synergy-S Academic Package",
+        "fitScore": 96,
+        "reasons": [
+          "Educational license for training students",
+          "High throughput for designed protein validation",
+          "In-house capability reducing synchrotron dependency",
+          "Multi-user software for collaborative projects"
+        ],
+        "valueProposition": "Empower your lab to validate every design - train the next generation while accelerating discovery"
+      },
+      "personalizedOutreach": {
+        "emailSubject": "David - Congratulations on the Nobel! Scaling protein design validation",
+        "emailBody": "Dear Professor Baker,\n\nCongratulations on the Nobel Prize - your work creating proteins never seen in nature is truly revolutionary!\n\nWith RFdiffusion and your lab designing hundreds of novel proteins monthly, I imagine the validation bottleneck at synchrotrons is a constant challenge. Your students probably spend more time waiting for beamtime than actually collecting data.\n\nWe've developed an academic package specifically for protein design labs - unlimited student access, educational modules, and throughput to match your design pipeline. Several of your former postdocs now run similar systems in their own labs.\n\nWould you be interested in exploring how to eliminate the validation bottleneck for your team?\n\nBest regards,\n[Your Name]",
+        "outreachHooks": [
+          "Congratulate on Nobel Prize",
+          "Reference recent RFdiffusion breakthroughs",
+          "Position as enabling faster design-test cycles",
+          "Mention success at other protein design labs"
+        ]
+      },
+      "dealIntelligence": {
+        "size": "$1.8M - $2.5M",
+        "timeline": "Q4 2024",
+        "probability": "82%",
+        "decisionProcess": "Lab evaluation -> Grant application -> University procurement",
+        "decisionMakers": ["David Baker", "Lab Manager", "UW Procurement"],
+        "successCriteria": ["Student training capability", "Throughput", "Grant compliance"]
+      }
+    },
+    {
+      "id": "mohammed-alquraishi-005",
+      "rank": 5,
+      "name": "Mohammed AlQuraishi",
+      "score": 85,
+      "priority": "HIGH",
+      "title": "Assistant Professor",
+      "company": "Columbia University",
+      "previousCompany": "Harvard Medical School",
+      "email": "ma4129@columbia.edu",
+      "phone": "+1-212-555-0185",
+      "linkedIn": "https://www.linkedin.com/in/mohammed-alquraishi/",
+      "twitter": "@MoAlQuraishi",
+      "location": "New York, NY",
+      "research": {
+        "focus": "End-to-end differentiable learning of protein structure",
+        "achievement": "Pioneered fully differentiable structure prediction before AlphaFold",
+        "publications": [
+          "End-to-end differentiable learning of protein structure",
+          "Machine learning in protein structure prediction"
+        ],
+        "citations": 6800,
+        "h_index": 24,
+        "painPoints": [
+          "Limited experimental validation resources",
+          "Need for high-quality training data",
+          "Validating edge cases and difficult targets",
+          "Building new ML architectures requires rapid feedback"
+        ],
+        "currentTools": ["Shared facility access", "Computational predictions only"],
+        "budget": "$5M in recent grants"
+      },
+      "funding": {
+        "amount": "$5M in recent grants",
+        "sources": ["NIH R01", "NSF CAREER Award"],
+        "collaborations": ["Memorial Sloan Kettering", "Chan Zuckerberg Biohub"]
+      },
+      "productMatch": {
+        "product": "Rigaku SmartLab with Python API",
+        "fitScore": 88,
+        "reasons": [
+          "Python integration for ML workflows",
+          "Automated data collection for training sets",
+          "Real-time structure feedback for model development",
+          "Academic pricing with full API access"
+        ],
+        "valueProposition": "Generate pristine training data for next-gen ML models - fully integrated with your Python pipeline"
+      },
+      "personalizedOutreach": {
+        "emailSubject": "Mohammed - Pristine training data for your differentiable folding models",
+        "emailBody": "Hi Mohammed,\n\nYour pioneering work on differentiable protein folding laid crucial groundwork for the field - the end-to-end learning approach was years ahead of its time.\n\nAs you build next-generation ML architectures at Columbia, I imagine access to high-quality experimental validation data is crucial but challenging. Shared facilities and limited beamtime must slow down the rapid iteration needed for model development.\n\nWe've developed Python-integrated crystallography systems that pipe data directly into ML workflows. Generate training data on-demand, validate edge cases immediately, and iterate models with real experimental feedback.\n\nWould you be interested in discussing how to accelerate your ML model development with integrated experimental validation?\n\nBest,\n[Your Name]",
+        "outreachHooks": [
+          "Acknowledge pioneering work in differentiable folding",
+          "Reference recent Columbia lab establishment",
+          "Connect to ML training data needs",
+          "Mention collaboration with other computational biologists"
+        ]
+      },
+      "dealIntelligence": {
+        "size": "$650K - $900K",
+        "timeline": "Q2 2025",
+        "probability": "68%",
+        "decisionProcess": "Technical evaluation -> Grant funding -> Columbia procurement",
+        "decisionMakers": ["Mohammed AlQuraishi", "Department Chair", "Columbia Purchasing"],
+        "successCriteria": ["Python integration", "Data quality", "Automation level"]
+      }
+    },
+    {
+      "id": "demis-hassabis-006",
+      "rank": 6,
+      "name": "Demis Hassabis",
+      "score": 90,
+      "priority": "HIGH",
+      "title": "CEO & Co-founder",
+      "company": "DeepMind / Isomorphic Labs",
+      "email": "demis@isomorphiclabs.com",
+      "phone": "+44-20-555-0190",
+      "linkedIn": "https://www.linkedin.com/in/demishassabis/",
+      "twitter": "@demishassabis",
+      "location": "London, UK",
+      "research": {
+        "focus": "AI for drug discovery and scientific breakthrough",
+        "achievement": "Nobel Prize in Chemistry 2024, founded Isomorphic Labs for drug discovery",
+        "publications": [
+          "AlphaFold publications series",
+          "AI for scientific discovery vision papers"
+        ],
+        "citations": 35000,
+        "h_index": 78,
+        "painPoints": [
+          "Scaling drug discovery validation",
+          "Building wet lab capabilities for Isomorphic",
+          "Integrating AI predictions with experimental validation",
+          "Time to first drug candidate"
+        ],
+        "currentTools": ["Building from scratch", "Partner facilities"],
+        "budget": "Unlimited for strategic initiatives"
+      },
+      "funding": {
+        "amount": "Alphabet backing",
+        "budget": "Unlimited for strategic initiatives",
+        "partnerships": ["Eli Lilly", "Novartis"],
+        "valuation": "Part of Alphabet"
+      },
+      "productMatch": {
+        "product": "Rigaku Enterprise Drug Discovery Platform",
+        "fitScore": 93,
+        "reasons": [
+          "Enterprise-scale validation infrastructure",
+          "Full automation for 24/7 operation",
+          "Integration with Isomorphic's AI platform",
+          "Proven in pharma partnerships"
+        ],
+        "valueProposition": "Build Isomorphic's experimental validation backbone - from AI prediction to drug candidate in record time"
+      },
+      "personalizedOutreach": {
+        "emailSubject": "Demis - Building Isomorphic's experimental validation infrastructure",
+        "emailBody": "Dear Demis,\n\nCongratulations on the Nobel Prize and on Isomorphic's partnerships with Lilly and Novartis!\n\nAs Isomorphic scales from AI predictions to actual drug candidates, building robust experimental validation infrastructure must be critical. The gap between what AI can design and what can be validated experimentally often determines the pace of drug discovery.\n\nWe've built enterprise platforms for AI-first drug discovery - fully automated, 24/7 operation, with complete integration into AI pipelines. Your pharma partners are already using similar systems.\n\nWould you be interested in exploring how to build Isomorphic's experimental backbone to match your AI capabilities?\n\nBest regards,\n[Your Name]",
+        "outreachHooks": [
+          "Congratulate on Nobel Prize",
+          "Reference Isomorphic's pharma partnerships",
+          "Position as critical for AI-first drug discovery",
+          "Mention DeepMind alumni successes"
+        ]
+      },
+      "dealIntelligence": {
+        "size": "$5M - $10M",
+        "timeline": "Q3 2025",
+        "probability": "65%",
+        "decisionProcess": "Strategic evaluation -> Alphabet approval",
+        "decisionMakers": ["Demis Hassabis", "Isomorphic Leadership", "Alphabet Strategic"],
+        "successCriteria": ["Enterprise scale", "AI integration", "Pharma validation"]
+      }
+    },
+    {
+      "id": "frances-arnold-007",
+      "rank": 7,
+      "name": "Frances Arnold",
+      "score": 87,
+      "priority": "HIGH",
+      "title": "Professor of Chemical Engineering",
+      "company": "California Institute of Technology",
+      "email": "frances@caltech.edu",
+      "phone": "+1-626-555-0187",
+      "linkedIn": "https://www.linkedin.com/in/frances-arnold/",
+      "twitter": "@francesarnold",
+      "location": "Pasadena, CA",
+      "research": {
+        "focus": "Directed evolution and protein engineering",
+        "achievement": "Nobel Prize in Chemistry 2018, pioneered directed evolution",
+        "publications": [
+          "Innovation by evolution: Bringing new chemistry to life",
+          "Machine learning-guided directed evolution"
+        ],
+        "citations": 52000,
+        "h_index": 95,
+        "painPoints": [
+          "Screening thousands of evolved variants",
+          "Need for rapid structure-function correlation",
+          "Training next generation of protein engineers",
+          "Validating novel enzyme activities"
+        ],
+        "currentTools": ["Stanford Synchrotron", "Shared Caltech facilities"],
+        "budget": "$15M+ active grants"
+      },
+      "funding": {
+        "amount": "$15M+ active grants",
+        "sources": ["DOE", "NIH", "Industry partnerships"],
+        "companies": ["Gevo", "Provivi", "Aralez Bio"]
+      },
+      "productMatch": {
+        "product": "Rigaku XtaLAB mini II",
+        "fitScore": 86,
+        "reasons": [
+          "Benchtop system for rapid variant screening",
+          "Low sample consumption for precious variants",
+          "Student-friendly for teaching",
+          "Cost-effective for multiple systems"
+        ],
+        "valueProposition": "Screen your evolution libraries 10x faster - see structure changes in real-time as evolution progresses"
+      },
+      "personalizedOutreach": {
+        "emailSubject": "Frances - Accelerating directed evolution with rapid structure feedback",
+        "emailBody": "Dear Professor Arnold,\n\nYour pioneering work in directed evolution continues to inspire - the marriage of evolution and engineering you championed is transforming biotechnology.\n\nAs your lab screens thousands of evolved variants, I imagine the bottleneck of structural validation limits how quickly you can iterate through generations. When evolution happens in days but structure determination takes weeks, it slows the entire DBTL cycle.\n\nWe've developed benchtop systems perfect for evolution campaigns - screen variants in hours, not weeks, with minimal sample consumption. See structural changes in real-time as your enzymes evolve.\n\nWould you be interested in exploring how to accelerate your directed evolution campaigns?\n\nBest regards,\n[Your Name]",
+        "outreachHooks": [
+          "Reference Nobel Prize and directed evolution impact",
+          "Connect to high-throughput screening needs",
+          "Mention success in other evolution labs",
+          "Position as enabling faster DBTL cycles"
+        ]
+      },
+      "dealIntelligence": {
+        "size": "$400K - $600K",
+        "timeline": "Q1 2025",
+        "probability": "72%",
+        "decisionProcess": "Lab evaluation -> Grant funding -> Caltech procurement",
+        "decisionMakers": ["Frances Arnold", "Lab Manager", "Caltech Purchasing"],
+        "successCriteria": ["Screening speed", "Sample consumption", "Ease of use"]
+      }
+    },
+    {
+      "id": "jennifer-doudna-008",
+      "rank": 8,
+      "name": "Jennifer Doudna",
+      "score": 91,
+      "priority": "HIGHEST",
+      "title": "Professor & HHMI Investigator",
+      "company": "UC Berkeley / Innovative Genomics Institute",
+      "email": "doudna@berkeley.edu",
+      "phone": "+1-510-555-0191",
+      "linkedIn": "https://www.linkedin.com/in/jennifer-doudna/",
+      "twitter": "@jenniferdoudna",
+      "location": "Berkeley, CA",
+      "research": {
+        "focus": "CRISPR systems and RNA biology",
+        "achievement": "Nobel Prize in Chemistry 2020, CRISPR-Cas9 co-inventor",
+        "publications": [
+          "A programmable dual-RNA-guided DNA endonuclease",
+          "The promise and challenge of therapeutic genome editing"
+        ],
+        "citations": 68000,
+        "h_index": 142,
+        "painPoints": [
+          "Structural characterization of new CRISPR variants",
+          "Understanding off-target effects structurally",
+          "Rapid validation of engineered systems",
+          "Training students across multiple labs"
+        ],
+        "currentTools": ["Advanced Light Source", "Multiple shared facilities"],
+        "budget": "$50M+ including IGI funding"
+      },
+      "funding": {
+        "amount": "$50M+ including IGI funding",
+        "sources": ["HHMI", "NIH", "Foundations"],
+        "companies": ["Mammoth Biosciences", "Caribou Biosciences", "Scribe Therapeutics"]
+      },
+      "productMatch": {
+        "product": "Rigaku FR-X with CRISPR-RNA specialist package",
+        "fitScore": 92,
+        "reasons": [
+          "Optimized for RNA-protein complex structures",
+          "High brilliance for small CRISPR-RNA crystals",
+          "Multi-lab access system for IGI",
+          "Proven with other CRISPR researchers"
+        ],
+        "valueProposition": "Accelerate CRISPR innovation with dedicated RNA-protein crystallography - see what Cas proteins really do"
+      },
+      "personalizedOutreach": {
+        "emailSubject": "Jennifer - Structural insights for next-gen CRISPR systems",
+        "emailBody": "Dear Professor Doudna,\n\nYour CRISPR revolution continues to transform medicine and agriculture - the recent discoveries of new CRISPR systems are particularly exciting.\n\nAs your team characterizes these novel systems, I imagine the structural biology bottleneck is challenging. Understanding exactly how new Cas proteins interact with RNA and DNA at atomic resolution is crucial but time-consuming.\n\nWe've developed specialized systems for RNA-protein complexes - optimized for the small, difficult crystals typical of CRISPR systems. The IGI's collaborative structure would benefit from dedicated, always-available infrastructure.\n\nWould you be interested in discussing how to accelerate structural characterization of new CRISPR variants?\n\nBest regards,\n[Your Name]",
+        "outreachHooks": [
+          "Acknowledge CRISPR revolution impact",
+          "Reference recent new CRISPR system discoveries",
+          "Connect to structural biology needs",
+          "Mention IGI's collaborative structure"
+        ]
+      },
+      "dealIntelligence": {
+        "size": "$2.5M - $3.5M",
+        "timeline": "Q4 2024",
+        "probability": "78%",
+        "decisionProcess": "IGI evaluation -> Multi-lab approval -> UC procurement",
+        "decisionMakers": ["Jennifer Doudna", "IGI Leadership", "UC Berkeley Procurement"],
+        "successCriteria": ["RNA-protein capability", "Multi-lab access", "Crystal quality"]
+      }
+    }
+  ],
+  "scoringMethodology": {
+    "description": "SMYKM AI Lead Scoring Algorithm",
+    "factors": [
+      {"factor": "Research Impact", "weight": "25%", "measurement": "Citations, h-index, breakthroughs"},
+      {"factor": "Funding Available", "weight": "20%", "measurement": "Grants, venture funding, budget"},
+      {"factor": "Pain Point Severity", "weight": "20%", "measurement": "Bottleneck impact on research"},
+      {"factor": "Product Fit", "weight": "15%", "measurement": "How well our solution matches needs"},
+      {"factor": "Timeline Urgency", "weight": "10%", "measurement": "Immediate need vs future"},
+      {"factor": "Decision Authority", "weight": "10%", "measurement": "Ability to make purchase decision"}
+    ],
+    "scoreRanges": [
+      {"range": "95-100", "priority": "HIGHEST", "action": "Immediate executive outreach"},
+      {"range": "90-94", "priority": "HIGHEST", "action": "Personalized campaign within 24 hours"},
+      {"range": "85-89", "priority": "HIGH", "action": "Targeted outreach within week"},
+      {"range": "80-84", "priority": "MEDIUM", "action": "Add to nurture campaign"},
+      {"range": "Below 80", "priority": "LOW", "action": "Quarterly check-in"}
+    ]
+  },
+  "campaignStrategy": {
+    "overview": "Multi-touch, highly personalized outreach based on SMYKM principles",
+    "channels": ["Email", "LinkedIn", "Conference meetings", "Webinars", "Peer referrals"],
+    "sequence": [
+      {"touch": 1, "day": 0, "channel": "Email", "type": "Personalized introduction"},
+      {"touch": 2, "day": 3, "channel": "LinkedIn", "type": "Connection request"},
+      {"touch": 3, "day": 7, "channel": "Email", "type": "Value-add content"},
+      {"touch": 4, "day": 14, "channel": "Email", "type": "Case study"},
+      {"touch": 5, "day": 21, "channel": "Email", "type": "ROI analysis"},
+      {"touch": 6, "day": 28, "channel": "Email", "type": "Urgency/Special offer"},
+      {"touch": 7, "day": 35, "channel": "Phone", "type": "Direct call"},
+      {"touch": 8, "day": 42, "channel": "Email", "type": "Break-up email"}
+    ],
+    "personalizationKeys": [
+      "Reference specific research achievements",
+      "Acknowledge exact pain points",
+      "Use their terminology and language",
+      "Mention peers and competitors appropriately",
+      "Connect solution to their specific goals"
+    ]
+  }
+}

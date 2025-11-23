@@ -1,0 +1,428 @@
+{
+  "leads": [
+    {
+      "id": "alex-rives-001",
+      "name": "Alex Rives",
+      "score": 95,
+      "priority": "HIGHEST",
+      "title": "Head of Science",
+      "company": "Chan Zuckerberg Initiative (CZI)",
+      "previousCompany": "EvolutionaryScale",
+      "email": "arives@evolutionaryscale.ai",
+      "linkedIn": "https://www.linkedin.com/in/alexrives/",
+      "research": {
+        "focus": "ESM3 - AI protein generation model",
+        "achievement": "Simulated 500 million years of evolution with AI",
+        "publications": [
+          "ESM3: Simulating 500 million years of evolution with a multimodal generative model",
+          "Language models enable zero-shot prediction of the effects of mutations on protein function"
+        ],
+        "painPoints": [
+          "AI generates 1000+ protein designs per day",
+          "Validation bottleneck - takes weeks for crystallography",
+          "Limited synchrotron beamtime availability",
+          "High cost of external validation services"
+        ]
+      },
+      "funding": {
+        "amount": "$142M",
+        "round": "Seed",
+        "date": "2024",
+        "investors": ["Lux Capital", "Nat Friedman", "Daniel Gross"]
+      },
+      "productMatch": {
+        "product": "Rigaku XtaLAB Synergy-S",
+        "fitScore": 98,
+        "reasons": [
+          "24/7 in-house availability vs weeks for synchrotron",
+          "$50/structure vs $2000 at facilities",
+          "Hours vs days turnaround time",
+          "Perfect for high-throughput protein validation"
+        ],
+        "valueProposition": "Eliminate your protein validation bottleneck - validate 1000s of ESM3 designs in-house at 40x lower cost"
+      },
+      "outreachHooks": [
+        "Reference CZI announcement about protein design platform",
+        "Mention '500 million years of evolution' achievement",
+        "Acknowledge validation bottleneck challenge",
+        "Position as enabling ESM3 to reach full potential"
+      ],
+      "dealPotential": {
+        "size": "$850K - $1.2M",
+        "timeline": "Q1 2025",
+        "probability": "85%"
+      }
+    },
+    {
+      "id": "john-jumper-002",
+      "name": "John Jumper",
+      "score": 92,
+      "priority": "HIGHEST",
+      "title": "Senior Research Scientist / AlphaFold Lead",
+      "company": "DeepMind (Google)",
+      "email": "jumper@deepmind.com",
+      "linkedIn": "https://www.linkedin.com/in/john-jumper/",
+      "research": {
+        "focus": "AlphaFold3 - Protein structure prediction",
+        "achievement": "Nobel Prize in Chemistry 2024, solved 200M+ protein structures",
+        "publications": [
+          "Highly accurate protein structure prediction with AlphaFold",
+          "AlphaFold3: Accurate structure prediction of biomolecular interactions"
+        ],
+        "painPoints": [
+          "Need to validate AlphaFold predictions experimentally",
+          "Scaling validation to match prediction throughput",
+          "Drug discovery applications need rapid structure confirmation",
+          "Integration between computational and experimental pipelines"
+        ]
+      },
+      "funding": {
+        "amount": "Part of Google/Alphabet",
+        "budget": "Significant R&D budget",
+        "partnerships": ["Isomorphic Labs", "Multiple pharma companies"]
+      },
+      "productMatch": {
+        "product": "Rigaku SmartLab System with AI Integration",
+        "fitScore": 95,
+        "reasons": [
+          "Automated validation of AlphaFold predictions",
+          "API integration with computational pipelines",
+          "High-throughput crystallography matching AI speed",
+          "ML-powered data analysis for structure refinement"
+        ],
+        "valueProposition": "Close the loop between AlphaFold predictions and experimental validation - automated, integrated, at scale"
+      },
+      "outreachHooks": [
+        "Congratulate on Nobel Prize",
+        "Reference AlphaFold3's biomolecular interaction capabilities",
+        "Position as bridging computational-experimental gap",
+        "Mention successful DeepMind alumni using our systems"
+      ],
+      "dealPotential": {
+        "size": "$2M - $3.5M",
+        "timeline": "Q2 2025",
+        "probability": "75%"
+      }
+    },
+    {
+      "id": "roshan-rao-003",
+      "name": "Roshan Rao",
+      "score": 88,
+      "priority": "HIGH",
+      "title": "Research Scientist",
+      "company": "Meta AI (FAIR)",
+      "previousCompany": "UC Berkeley",
+      "email": "roshanrao@meta.com",
+      "linkedIn": "https://www.linkedin.com/in/roshan-rao/",
+      "research": {
+        "focus": "ESM-2 and protein language models",
+        "achievement": "Built ESM-2 with 15B parameters, largest protein language model",
+        "publications": [
+          "MSA Transformer",
+          "ESM-2: Language models of protein sequences at the scale of evolution"
+        ],
+        "painPoints": [
+          "Validating protein function predictions at scale",
+          "Need for rapid experimental feedback loops",
+          "Connecting sequence predictions to 3D structures",
+          "Building comprehensive protein-function databases"
+        ]
+      },
+      "funding": {
+        "amount": "Part of Meta",
+        "budget": "FAIR has substantial research budget",
+        "openSource": true
+      },
+      "productMatch": {
+        "product": "Rigaku XtaLAB Synergy-ED",
+        "fitScore": 90,
+        "reasons": [
+          "Electron diffraction for smaller protein crystals",
+          "Faster structure determination for model validation",
+          "Compatible with Meta's open-source approach",
+          "Enables rapid protein-function correlation studies"
+        ],
+        "valueProposition": "Accelerate ESM-2 validation with electron diffraction - get structures from nanocrystals in minutes"
+      },
+      "outreachHooks": [
+        "Acknowledge ESM-2's impact on the field",
+        "Reference Meta's commitment to open science",
+        "Connect to protein function validation challenges",
+        "Mention collaboration opportunities with academic partners"
+      ],
+      "dealPotential": {
+        "size": "$1.5M - $2M",
+        "timeline": "Q1 2025",
+        "probability": "70%"
+      }
+    },
+    {
+      "id": "david-baker-004",
+      "name": "David Baker",
+      "score": 94,
+      "priority": "HIGHEST",
+      "title": "Director, Institute for Protein Design",
+      "company": "University of Washington",
+      "email": "dabaker@uw.edu",
+      "linkedIn": "https://www.linkedin.com/in/david-baker-ipd/",
+      "research": {
+        "focus": "De novo protein design with RoseTTAFold and RFdiffusion",
+        "achievement": "Nobel Prize in Chemistry 2024, created proteins never seen in nature",
+        "publications": [
+          "De novo design of protein structure and function",
+          "RFdiffusion: Accurate design of novel protein structures"
+        ],
+        "painPoints": [
+          "Validating hundreds of designed proteins monthly",
+          "Need for rapid structure confirmation",
+          "Training students on crystallography",
+          "Managing multiple projects with limited beamtime"
+        ]
+      },
+      "funding": {
+        "amount": "$50M+ in active grants",
+        "sources": ["NIH", "NSF", "HHMI", "Gates Foundation"],
+        "spinoffs": ["Arzeda", "Cyrus Biotechnology", "Monod Bio"]
+      },
+      "productMatch": {
+        "product": "Rigaku XtaLAB Synergy-S Academic Package",
+        "fitScore": 96,
+        "reasons": [
+          "Educational license for training students",
+          "High throughput for designed protein validation",
+          "In-house capability reducing synchrotron dependency",
+          "Multi-user software for collaborative projects"
+        ],
+        "valueProposition": "Empower your lab to validate every design - train the next generation while accelerating discovery"
+      },
+      "outreachHooks": [
+        "Congratulate on Nobel Prize",
+        "Reference recent RFdiffusion breakthroughs",
+        "Position as enabling faster design-test cycles",
+        "Mention success at other protein design labs"
+      ],
+      "dealPotential": {
+        "size": "$1.8M - $2.5M",
+        "timeline": "Q4 2024",
+        "probability": "82%"
+      }
+    },
+    {
+      "id": "mohammed-alquraishi-005",
+      "name": "Mohammed AlQuraishi",
+      "score": 85,
+      "priority": "HIGH",
+      "title": "Assistant Professor",
+      "company": "Columbia University",
+      "previousCompany": "Harvard Medical School",
+      "email": "ma4129@columbia.edu",
+      "linkedIn": "https://www.linkedin.com/in/mohammed-alquraishi/",
+      "research": {
+        "focus": "End-to-end differentiable learning of protein structure",
+        "achievement": "Pioneered fully differentiable structure prediction before AlphaFold",
+        "publications": [
+          "End-to-end differentiable learning of protein structure",
+          "Machine learning in protein structure prediction"
+        ],
+        "painPoints": [
+          "Limited experimental validation resources",
+          "Need for high-quality training data",
+          "Validating edge cases and difficult targets",
+          "Building new ML architectures requires rapid feedback"
+        ]
+      },
+      "funding": {
+        "amount": "$5M in recent grants",
+        "sources": ["NIH R01", "NSF CAREER Award"],
+        "collaborations": ["Memorial Sloan Kettering", "Chan Zuckerberg Biohub"]
+      },
+      "productMatch": {
+        "product": "Rigaku SmartLab with Python API",
+        "fitScore": 88,
+        "reasons": [
+          "Python integration for ML workflows",
+          "Automated data collection for training sets",
+          "Real-time structure feedback for model development",
+          "Academic pricing with full API access"
+        ],
+        "valueProposition": "Generate pristine training data for next-gen ML models - fully integrated with your Python pipeline"
+      },
+      "outreachHooks": [
+        "Acknowledge pioneering work in differentiable folding",
+        "Reference recent Columbia lab establishment",
+        "Connect to ML training data needs",
+        "Mention collaboration with other computational biologists"
+      ],
+      "dealPotential": {
+        "size": "$650K - $900K",
+        "timeline": "Q2 2025",
+        "probability": "68%"
+      }
+    },
+    {
+      "id": "demis-hassabis-006",
+      "name": "Demis Hassabis",
+      "score": 90,
+      "priority": "HIGH",
+      "title": "CEO & Co-founder",
+      "company": "DeepMind / Isomorphic Labs",
+      "email": "demis@isomorphiclabs.com",
+      "linkedIn": "https://www.linkedin.com/in/demishassabis/",
+      "research": {
+        "focus": "AI for drug discovery and scientific breakthrough",
+        "achievement": "Nobel Prize in Chemistry 2024, founded Isomorphic Labs for drug discovery",
+        "publications": [
+          "AlphaFold publications series",
+          "AI for scientific discovery vision papers"
+        ],
+        "painPoints": [
+          "Scaling drug discovery validation",
+          "Building wet lab capabilities for Isomorphic",
+          "Integrating AI predictions with experimental validation",
+          "Time to first drug candidate"
+        ]
+      },
+      "funding": {
+        "amount": "Alphabet backing",
+        "budget": "Unlimited for strategic initiatives",
+        "partnerships": ["Eli Lilly", "Novartis"]
+      },
+      "productMatch": {
+        "product": "Rigaku Enterprise Drug Discovery Platform",
+        "fitScore": 93,
+        "reasons": [
+          "Enterprise-scale validation infrastructure",
+          "Full automation for 24/7 operation",
+          "Integration with Isomorphic's AI platform",
+          "Proven in pharma partnerships"
+        ],
+        "valueProposition": "Build Isomorphic's experimental validation backbone - from AI prediction to drug candidate in record time"
+      },
+      "outreachHooks": [
+        "Congratulate on Nobel Prize",
+        "Reference Isomorphic's pharma partnerships",
+        "Position as critical for AI-first drug discovery",
+        "Mention DeepMind alumni successes"
+      ],
+      "dealPotential": {
+        "size": "$5M - $10M",
+        "timeline": "Q3 2025",
+        "probability": "65%"
+      }
+    },
+    {
+      "id": "frances-arnold-007",
+      "name": "Frances Arnold",
+      "score": 87,
+      "priority": "HIGH",
+      "title": "Professor of Chemical Engineering",
+      "company": "California Institute of Technology",
+      "email": "frances@caltech.edu",
+      "linkedIn": "https://www.linkedin.com/in/frances-arnold/",
+      "research": {
+        "focus": "Directed evolution and protein engineering",
+        "achievement": "Nobel Prize in Chemistry 2018, pioneered directed evolution",
+        "publications": [
+          "Innovation by evolution: Bringing new chemistry to life",
+          "Machine learning-guided directed evolution"
+        ],
+        "painPoints": [
+          "Screening thousands of evolved variants",
+          "Need for rapid structure-function correlation",
+          "Training next generation of protein engineers",
+          "Validating novel enzyme activities"
+        ]
+      },
+      "funding": {
+        "amount": "$15M+ active grants",
+        "sources": ["DOE", "NIH", "Industry partnerships"],
+        "companies": ["Gevo", "Provivi", "Aralez Bio"]
+      },
+      "productMatch": {
+        "product": "Rigaku XtaLAB mini II",
+        "fitScore": 86,
+        "reasons": [
+          "Benchtop system for rapid variant screening",
+          "Low sample consumption for precious variants",
+          "Student-friendly for teaching",
+          "Cost-effective for multiple systems"
+        ],
+        "valueProposition": "Screen your evolution libraries 10x faster - see structure changes in real-time as evolution progresses"
+      },
+      "outreachHooks": [
+        "Reference Nobel Prize and directed evolution impact",
+        "Connect to high-throughput screening needs",
+        "Mention success in other evolution labs",
+        "Position as enabling faster DBTL cycles"
+      ],
+      "dealPotential": {
+        "size": "$400K - $600K",
+        "timeline": "Q1 2025",
+        "probability": "72%"
+      }
+    },
+    {
+      "id": "jennifer-doudna-008",
+      "name": "Jennifer Doudna",
+      "score": 91,
+      "priority": "HIGHEST",
+      "title": "Professor & HHMI Investigator",
+      "company": "UC Berkeley / Innovative Genomics Institute",
+      "email": "doudna@berkeley.edu",
+      "linkedIn": "https://www.linkedin.com/in/jennifer-doudna/",
+      "research": {
+        "focus": "CRISPR systems and RNA biology",
+        "achievement": "Nobel Prize in Chemistry 2020, CRISPR-Cas9 co-inventor",
+        "publications": [
+          "A programmable dual-RNA-guided DNA endonuclease",
+          "The promise and challenge of therapeutic genome editing"
+        ],
+        "painPoints": [
+          "Structural characterization of new CRISPR variants",
+          "Understanding off-target effects structurally",
+          "Rapid validation of engineered systems",
+          "Training students across multiple labs"
+        ]
+      },
+      "funding": {
+        "amount": "$50M+ including IGI funding",
+        "sources": ["HHMI", "NIH", "Foundations"],
+        "companies": ["Mammoth Biosciences", "Caribou Biosciences", "Scribe Therapeutics"]
+      },
+      "productMatch": {
+        "product": "Rigaku FR-X with CRISPR-RNA specialist package",
+        "fitScore": 92,
+        "reasons": [
+          "Optimized for RNA-protein complex structures",
+          "High brilliance for small CRISPR-RNA crystals",
+          "Multi-lab access system for IGI",
+          "Proven with other CRISPR researchers"
+        ],
+        "valueProposition": "Accelerate CRISPR innovation with dedicated RNA-protein crystallography - see what Cas proteins really do"
+      },
+      "outreachHooks": [
+        "Acknowledge CRISPR revolution impact",
+        "Reference recent new CRISPR system discoveries",
+        "Connect to structural biology needs",
+        "Mention IGI's collaborative structure"
+      ],
+      "dealPotential": {
+        "size": "$2.5M - $3.5M",
+        "timeline": "Q4 2024",
+        "probability": "78%"
+      }
+    }
+  ],
+  "metadata": {
+    "generated": "2024-11-22",
+    "total_leads": 8,
+    "average_score": 90.1,
+    "total_deal_potential": "$19.3M - $31.1M",
+    "hottest_sectors": ["AI Protein Design", "Drug Discovery", "CRISPR"],
+    "recommended_products": [
+      "Rigaku XtaLAB Synergy-S",
+      "Rigaku SmartLab System",
+      "Rigaku Enterprise Platform"
+    ]
+  }
+}

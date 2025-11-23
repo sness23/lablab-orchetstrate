@@ -1,0 +1,9 @@
+Name,Score,Priority,Title,Company,Research Focus,Pain Point,Matched Product,Deal Size,Email
+Alex Rives,95,HIGHEST,Head of Science,Chan Zuckerberg Initiative,ESM3 - AI protein generation,AI generates 1000+ proteins daily but validation takes weeks,Rigaku XtaLAB Synergy-S,$850K-$1.2M,arives@evolutionaryscale.ai
+John Jumper,92,HIGHEST,AlphaFold Lead,DeepMind (Google),AlphaFold3 - Protein structure prediction,Need to validate predictions experimentally at scale,Rigaku SmartLab System with AI Integration,$2M-$3.5M,jumper@deepmind.com
+David Baker,94,HIGHEST,Director Institute for Protein Design,University of Washington,De novo protein design with RoseTTAFold,Validating hundreds of designed proteins monthly,Rigaku XtaLAB Synergy-S Academic Package,$1.8M-$2.5M,dabaker@uw.edu
+Jennifer Doudna,91,HIGHEST,Professor & HHMI Investigator,UC Berkeley,CRISPR systems and RNA biology,Structural characterization of new CRISPR variants,Rigaku FR-X with CRISPR-RNA package,$2.5M-$3.5M,doudna@berkeley.edu
+Demis Hassabis,90,HIGH,CEO & Co-founder,DeepMind / Isomorphic Labs,AI for drug discovery,Scaling drug discovery validation,Rigaku Enterprise Drug Discovery Platform,$5M-$10M,demis@isomorphiclabs.com
+Roshan Rao,88,HIGH,Research Scientist,Meta AI (FAIR),ESM-2 protein language models,Validating protein function predictions at scale,Rigaku XtaLAB Synergy-ED,$1.5M-$2M,roshanrao@meta.com
+Frances Arnold,87,HIGH,Professor of Chemical Engineering,Caltech,Directed evolution and protein engineering,Screening thousands of evolved variants,Rigaku XtaLAB mini II,$400K-$600K,frances@caltech.edu
+Mohammed AlQuraishi,85,HIGH,Assistant Professor,Columbia University,Differentiable protein structure learning,Limited experimental validation resources,Rigaku SmartLab with Python API,$650K-$900K,ma4129@columbia.edu
